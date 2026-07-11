@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "latexTest.md",
+                "file": "templates/PROMPT - LaTeX to Obsidian Topic Note.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "latexTest"
+              "title": "PROMPT - LaTeX to Obsidian Topic Note"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "latexTest.md",
+                "file": "templates/PROMPT - LaTeX to Obsidian Topic Note.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of latexTest"
+              "title": "Outline of PROMPT - LaTeX to Obsidian Topic Note"
             }
           }
         ],
@@ -182,13 +182,20 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "57c8af1553a4a537",
+  "active": "c50d9f7066508b37",
   "lastOpenFiles": [
-    "Test.md",
+    "Untitled",
+    "courses",
     "latexTest.md",
+    "templates/PROMPT - LaTeX to Obsidian Topic Note.md",
+    "templates/PROMPT - PDF to Faithful LaTeX Transcription.md",
+    "templates/TPL - Topic Note.md",
+    "templates",
+    "Test.md",
     "2026-07-22.md"
   ]
 }
