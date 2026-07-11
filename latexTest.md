@@ -12,7 +12,7 @@ This section tests basic text formatting.
 
 ##### Heading 5
 
-###### Heading 6
+
 
 ---
 
