@@ -61,7 +61,7 @@ You can combine formatting, such as **bold text with *italic text* inside it**.
 ### Task List
 
 * [x] Completed task
-* [ ] Incomplete task
+* [x] Incomplete task
 * [ ] Another incomplete task
 
 ---
