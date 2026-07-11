@@ -519,7 +519,7 @@ The final equation is:
 $$
 \boxed{
 \mathbf{F}
-==========
+=
 
 m\mathbf{a}
 }
