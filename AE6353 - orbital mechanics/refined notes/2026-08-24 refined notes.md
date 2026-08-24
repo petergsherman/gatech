@@ -2,10 +2,10 @@
 note_type: refined-lecture
 course: AE6353
 lecture_date: 2026-08-24
-source_pdf: '[[8-24-2026 rough.pdf]]'
+source_pdf: "[[8-24-2026 rough notes.pdf]]"
 tags:
-- gt
-- notes/refined
+  - gt
+  - notes/refined
 permalink: brain/ae6353-orbital-mechanics/refined-notes/2026-08-24-refined
 ---
 

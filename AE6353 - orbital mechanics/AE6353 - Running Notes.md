@@ -9,7 +9,7 @@ permalink: brain/ae6353-orbital-mechanics/ae6353-running-notes
 
 # 2026-08-24
 
-*Source: [[8-24-2026 rough.pdf]] · Refined: [[2026-08-24 refined]]*
+*Source: [[8-24-2026 rough notes.pdf]] · Refined: [[2026-08-24 refined notes]]*
 
 ## Page 1
 
