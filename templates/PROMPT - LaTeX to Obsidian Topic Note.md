@@ -1,3 +1,9 @@
+---
+title: PROMPT - LaTeX to Obsidian Topic Note
+type: note
+permalink: brain/templates/prompt-la-te-x-to-obsidian-topic-note
+---
+
 Create one polished Obsidian topic note from the supplied materials.
 
 INPUTS

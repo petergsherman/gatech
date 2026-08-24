@@ -1,3 +1,9 @@
+---
+title: TPL - Topic Note
+type: note
+permalink: brain/templates/tpl-topic-note
+---
+
 <%*
 const topicInput = await tp.system.prompt("Topic name", "Untitled Topic");
 const courseInput = await tp.system.prompt("Course code", "AE XXXX");

@@ -1,3 +1,9 @@
+---
+title: PROMPT - PDF to Faithful LaTeX Transcription
+type: note
+permalink: brain/templates/prompt-pdf-to-faithful-la-te-x-transcription
+---
+
 You are performing a faithful technical transcription of handwritten engineering notes from an attached PDF.
 
 Your job is transcription, not teaching or completion.

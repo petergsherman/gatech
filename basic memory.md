@@ -1,3 +1,8 @@
+---
+title: basic memory
+type: note
+permalink: brain/basic-memory
+---
 
 # Basic Memory + Vault Sync — New Workstation Setup
 
