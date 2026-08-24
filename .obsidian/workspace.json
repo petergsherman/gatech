@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "863434414c56d408",
+        "id": "db6b6b03fb27a582",
         "type": "tabs",
         "children": [
           {
-            "id": "b62b23abd1eaa14b",
+            "id": "de91157245322901",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "templates/TPL - Topic Note.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "TPL - Topic Note"
             }
           }
         ]
@@ -182,14 +186,17 @@
       "bases:Create new base": false
     }
   },
-  "active": "f4b3c724e67354e8",
+  "active": "de91157245322901",
   "lastOpenFiles": [
-    "Hi.md",
-    "basic memory.md",
-    "templates/TPL - Topic Note.md",
-    "message.txt",
     "templates/PROMPT - LaTeX to Obsidian Topic Note.md",
     "templates/PROMPT - PDF to Faithful LaTeX Transcription.md",
+    "templates/TPL - Topic Note.md",
+    "AE6353 - orbital mechanics/rough notes/8-24-2026 rough.pdf",
+    "AE6353 - orbital mechanics/refined notes",
+    "AE6353 - orbital mechanics/rough notes",
+    "basic memory.md",
+    "Hi.md",
+    "message.txt",
     "AE6009 - viscous fluid flow",
     "AE6353 - orbital mechanics",
     "templates"
