@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/TPL - Topic Note.md",
+                "file": "AE6353 - orbital mechanics/AE6353 - Running Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TPL - Topic Note"
+              "title": "AE6353 - Running Notes"
             }
           }
         ]
@@ -186,8 +186,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "f4b3c724e67354e8",
+  "active": "de91157245322901",
   "lastOpenFiles": [
+    "templates/TPL - Topic Note.md",
+    "AE6353 - orbital mechanics/AE6353 - Running Notes.md",
+    "AE6353 - orbital mechanics/AE6353 - Running Notes.md.tmp.17440.ad0ff22d04b7",
     "AE6353 - orbital mechanics/refined notes/2026-08-24 refined.md.tmp.17440.442178cc4748",
     "AE6353 - orbital mechanics/refined notes/2026-08-24 refined.md.tmp.17440.f3adae4c1fe6",
     "AE6353 - orbital mechanics/refined notes/2026-08-24 refined.md",
@@ -195,7 +198,6 @@
     "CLAUDE.md",
     "templates/PROMPT - LaTeX to Obsidian Topic Note.md",
     "templates/PROMPT - PDF to Faithful LaTeX Transcription.md",
-    "templates/TPL - Topic Note.md",
     "AE6353 - orbital mechanics/rough notes/8-24-2026 rough.pdf",
     "AE6353 - orbital mechanics/refined notes",
     "AE6353 - orbital mechanics/rough notes",
@@ -203,7 +205,6 @@
     "Hi.md",
     "message.txt",
     "AE6009 - viscous fluid flow",
-    "AE6353 - orbital mechanics",
-    "templates"
+    "AE6353 - orbital mechanics"
   ]
 }
