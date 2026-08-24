@@ -6,5 +6,9 @@
     "description": "Integrate Git version control with automatic backup and other advanced features.",
     "isDesktopOnly": false,
     "fundingUrl": "https://ko-fi.com/vinzent",
+<<<<<<< HEAD
     "version": "2.39.0"
+=======
+    "version": "2.38.6"
+>>>>>>> e050ae36cda744a9f92571b14bc1856849f1d968
 }

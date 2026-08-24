@@ -1,1 +1,10 @@
+<<<<<<< HEAD
 {}
+=======
+{
+  "cssTheme": "Primary",
+  "theme": "system",
+  "accentColor": "#f2f55c",
+  "baseFontSize": 16
+}
+>>>>>>> e050ae36cda744a9f92571b14bc1856849f1d968

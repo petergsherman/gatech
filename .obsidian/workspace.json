@@ -183,5 +183,10 @@
     }
   },
   "active": "1f348dcf3b7c81c3",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "templates/TPL - Topic Note.md",
+    "templates/PROMPT - PDF to Faithful LaTeX Transcription.md",
+    "templates/PROMPT - LaTeX to Obsidian Topic Note.md",
+    "templates"
+  ]
 }
