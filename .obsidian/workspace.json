@@ -11,10 +11,14 @@
             "id": "1f348dcf3b7c81c3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "templates/TPL - Topic Note.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "TPL - Topic Note"
             }
           }
         ]
@@ -182,11 +186,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "1f348dcf3b7c81c3",
+  "active": "f4b3c724e67354e8",
   "lastOpenFiles": [
-    "templates/TPL - Topic Note.md",
-    "templates/PROMPT - PDF to Faithful LaTeX Transcription.md",
     "templates/PROMPT - LaTeX to Obsidian Topic Note.md",
+    "templates/PROMPT - PDF to Faithful LaTeX Transcription.md",
+    "viscous fluid flow",
+    "AE6353 - orbital mechanics",
+    "templates/TPL - Topic Note.md",
     "templates"
   ]
 }
