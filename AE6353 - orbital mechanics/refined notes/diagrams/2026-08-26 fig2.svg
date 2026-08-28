@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" font-family="'STIX Two Math','Cambria Math','Times New Roman',serif">
+  <rect width="900" height="400" fill="white"/>
+  <defs>
+    <marker id="ar" markerWidth="10" markerHeight="8" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L9,3 L0,6 Z" fill="#cc0000"/>
+    </marker>
+  </defs>
+
+  <!-- masses -->
+  <ellipse cx="70" cy="200" rx="22" ry="17" fill="black"/>
+  <circle cx="462" cy="200" r="6" fill="black"/>
+  <text x="52" y="162" font-size="30" font-style="italic">m<tspan dy="9" font-size="22">1</tspan></text>
+  <text x="420" y="234" font-size="30" font-style="italic">m<tspan dy="9" font-size="22">2</tspan></text>
+
+  <!-- position vector r -->
+  <line x1="96" y1="200" x2="444" y2="200" stroke="#cc0000" stroke-width="3" marker-end="url(#ar)"/>
+  <text x="258" y="238" font-size="34" font-style="italic" fill="#cc0000">r&#772;</text>
+
+  <!-- velocity vector v -->
+  <line x1="467" y1="192" x2="535" y2="94" stroke="#cc0000" stroke-width="3" marker-end="url(#ar)"/>
+  <text x="543" y="84" font-size="34" font-style="italic" fill="#cc0000">v&#772;</text>
+
+  <!-- local vertical (dashed, along r direction) -->
+  <line x1="474" y1="200" x2="660" y2="200" stroke="black" stroke-width="2" stroke-dasharray="2 7"/>
+  <text x="668" y="208" font-size="24">local vertical</text>
+
+  <!-- local horizontal (dotted, perpendicular to r) -->
+  <line x1="462" y1="84" x2="462" y2="320" stroke="black" stroke-width="2" stroke-dasharray="2 7"/>
+  <text x="462" y="352" font-size="24" text-anchor="middle">local horizontal</text>
+
+  <!-- angle arcs -->
+  <path d="M 462 140 A 60 60 0 0 1 496 151" fill="none" stroke="#1a73e8" stroke-width="1.5"/>
+  <path d="M 485 167 A 40 40 0 0 1 502 200" fill="none" stroke="#1a73e8" stroke-width="1.5"/>
+  <text x="476" y="130" font-size="28" font-style="italic" fill="#1a73e8">&#947;</text>
+  <text x="508" y="182" font-size="28" font-style="italic" fill="#1a73e8">&#966;</text>
+
+  <!-- blue annotations -->
+  <text x="620" y="100" font-size="25" fill="#1a73e8"><tspan font-style="italic">&#947;</tspan> is flight path angle</text>
+  <text x="620" y="136" font-size="25" fill="#1a73e8"><tspan font-style="italic">&#966;</tspan> is Zenith angle</text>
+</svg>

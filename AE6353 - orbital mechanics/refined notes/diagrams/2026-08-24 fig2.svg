@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 650" font-family="'STIX Two Math','Cambria Math','Times New Roman',serif">
+  <rect width="800" height="650" fill="white"/>
+  <defs>
+    <marker id="ar" markerWidth="10" markerHeight="8" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L9,3 L0,6 Z" fill="#cc0000"/>
+    </marker>
+    <marker id="ab" markerWidth="10" markerHeight="8" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L9,3 L0,6 Z" fill="black"/>
+    </marker>
+  </defs>
+
+  <!-- coordinate origin triad -->
+  <line x1="80" y1="560" x2="80" y2="470" stroke="black" stroke-width="2.5" marker-end="url(#ab)"/>
+  <line x1="80" y1="560" x2="180" y2="560" stroke="black" stroke-width="2.5" marker-end="url(#ab)"/>
+  <line x1="80" y1="560" x2="28" y2="612" stroke="black" stroke-width="2.5" marker-end="url(#ab)"/>
+  <text x="58" y="482" font-size="28" font-style="italic">z</text>
+  <text x="190" y="570" font-size="28" font-style="italic">y</text>
+  <text x="8" y="632" font-size="28" font-style="italic">x</text>
+
+  <!-- position vectors from origin -->
+  <line x1="80" y1="560" x2="294" y2="103" stroke="#cc0000" stroke-width="3" marker-end="url(#ar)"/>
+  <line x1="80" y1="560" x2="628" y2="267" stroke="#cc0000" stroke-width="3" marker-end="url(#ar)"/>
+  <line x1="80" y1="560" x2="686" y2="521" stroke="#cc0000" stroke-width="3" marker-end="url(#ar)"/>
+
+  <!-- vectors between bodies -->
+  <line x1="311" y1="95" x2="628" y2="254" stroke="#cc0000" stroke-width="3" marker-end="url(#ar)"/>
+  <line x1="308" y1="99" x2="690" y2="510" stroke="#cc0000" stroke-width="3" marker-end="url(#ar)"/>
+  <line x1="643" y1="272" x2="697" y2="506" stroke="#cc0000" stroke-width="3" marker-end="url(#ar)"/>
+
+  <!-- masses -->
+  <circle cx="300" cy="90" r="9" fill="black"/>
+  <circle cx="640" cy="260" r="9" fill="black"/>
+  <circle cx="700" cy="520" r="9" fill="black"/>
+  <text x="255" y="72" font-size="30" font-style="italic">m<tspan dy="8" font-size="22">1</tspan></text>
+  <text x="662" y="248" font-size="30" font-style="italic">m<tspan dy="8" font-size="22">2</tspan></text>
+  <text x="722" y="540" font-size="30" font-style="italic">m<tspan dy="8" font-size="22">k</tspan></text>
+
+  <!-- vector labels -->
+  <text x="140" y="320" font-size="32" font-style="italic" fill="#cc0000">r&#772;<tspan dy="9" font-size="23">1</tspan></text>
+  <text x="330" y="460" font-size="32" font-style="italic" fill="#cc0000">r&#772;<tspan dy="9" font-size="23">2</tspan></text>
+  <text x="400" y="588" font-size="32" font-style="italic" fill="#cc0000">r&#772;<tspan dy="9" font-size="23">k</tspan></text>
+  <text x="450" y="140" font-size="32" font-style="italic" fill="#cc0000">r&#772;<tspan dy="9" font-size="23">12</tspan></text>
+  <text x="522" y="296" font-size="32" font-style="italic" fill="#cc0000">F&#772;<tspan dy="9" font-size="23">1k</tspan></text>
+  <text x="700" y="390" font-size="32" font-style="italic" fill="#cc0000">F&#772;<tspan dy="9" font-size="23">2k</tspan></text>
+</svg>

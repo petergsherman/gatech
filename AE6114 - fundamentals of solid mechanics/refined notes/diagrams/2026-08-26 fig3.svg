@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="250" viewBox="0 0 260 250">
+  <rect width="260" height="250" fill="#ffffff"/>
+  <g stroke="#000" fill="none" stroke-width="2.2" stroke-linecap="round">
+    <path d="M 130 84 C 160 84 178 104 176 126 C 174 150 156 168 130 168
+             C 104 168 86 150 86 126 C 86 102 104 84 130 84 Z"/>
+    <path d="M 60 132 C 58 104 72 78 92 64"/>
+    <path d="M 168 64 C 190 78 202 104 200 132"/>
+    <path d="M 186 198 C 158 214 104 214 78 200"/>
+  </g>
+  <polygon points="96.0,61.0 88.7,71.7 83.2,63.3" fill="#000"/>
+  <polygon points="201.0,138.0 194.4,126.8 204.3,125.4" fill="#000"/>
+  <polygon points="72.0,196.0 85.0,196.4 80.9,205.5" fill="#000"/>
+  <g font-family="'STIX Two Math','Cambria Math','Times New Roman',serif" font-style="italic" font-size="24" fill="#000">
+    <text x="130" y="136" text-anchor="middle">+</text>
+    <text x="124" y="44">1</text>
+    <text x="204" y="180">2</text>
+    <text x="40" y="180">3</text>
+  </g>
+</svg>

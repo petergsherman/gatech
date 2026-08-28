@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="380" viewBox="0 0 440 380">
+  <rect width="440" height="380" fill="#ffffff"/>
+  <g stroke="#000" fill="none" stroke-width="2.2" stroke-linecap="round">
+    <line x1="176" y1="212" x2="176" y2="52"/>
+    <line x1="176" y1="212" x2="326" y2="212"/>
+    <line x1="176" y1="212" x2="80" y2="308"/>
+  </g>
+  <polygon points="176.0,42.0 181.0,54.0 171.0,54.0" fill="#000"/>
+  <polygon points="336.0,212.0 324.0,217.0 324.0,207.0" fill="#000"/>
+  <polygon points="72.0,316.0 76.9,304.0 84.0,311.1" fill="#000"/>
+  <g stroke="#1e7a4d" fill="none" stroke-width="1.8" stroke-dasharray="7 6" stroke-linecap="round">
+    <line x1="176" y1="212" x2="246" y2="107"/>
+    <line x1="176" y1="212" x2="70" y2="138"/>
+    <line x1="176" y1="212" x2="236" y2="309"/>
+  </g>
+  <polygon points="252.0,98.0 249.8,108.5 243.1,104.1" fill="#1e7a4d"/>
+  <polygon points="62.0,132.0 72.5,134.4 67.9,141.0" fill="#1e7a4d"/>
+  <polygon points="242.0,318.0 233.3,311.6 240.1,307.4" fill="#1e7a4d"/>
+  <line x1="176" y1="212" x2="308" y2="112" stroke="#1a73e8" stroke-width="2.6" stroke-linecap="round"/>
+  <polygon points="316.0,106.0 309.5,117.3 303.4,109.4" fill="#1a73e8"/>
+  <g font-family="'STIX Two Math','Cambria Math','Times New Roman',serif" font-style="italic" font-size="21">
+    <text x="188" y="40" fill="#000">e&#772;<tspan dy="6" font-size="70%">3</tspan><tspan dy="-6">,</tspan></text>
+    <text x="228" y="40" fill="#c5221f">z&#770;</text>
+    <text x="342" y="222" fill="#000">e&#772;<tspan dy="6" font-size="70%">2</tspan><tspan dy="-6">,</tspan></text>
+    <text x="382" y="222" fill="#c5221f">y&#770;</text>
+    <text x="58" y="340" fill="#000">e&#772;<tspan dy="6" font-size="70%">1</tspan><tspan dy="-6">,</tspan></text>
+    <text x="100" y="340" fill="#c5221f">x&#770;</text>
+    <text x="258" y="92" fill="#1e7a4d">e<tspan dy="6" font-size="70%">2</tspan><tspan dy="-6">&#8242;</tspan></text>
+    <text x="20" y="128" fill="#1e7a4d">e<tspan dy="6" font-size="70%">3</tspan><tspan dy="-6">&#8242;</tspan></text>
+    <text x="246" y="342" fill="#1e7a4d">e<tspan dy="6" font-size="70%">1</tspan><tspan dy="-6">&#8242;</tspan></text>
+    <text x="322" y="100" fill="#1a73e8">v&#772;</text>
+  </g>
+</svg>

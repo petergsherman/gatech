@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" font-family="'STIX Two Math','Cambria Math','Times New Roman',serif">
+  <rect width="800" height="560" fill="white"/>
+  <defs>
+    <marker id="ar" markerWidth="10" markerHeight="8" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L9,3 L0,6 Z" fill="#cc0000"/>
+    </marker>
+  </defs>
+
+  <!-- origin corner mark -->
+  <line x1="90" y1="480" x2="40" y2="440" stroke="black" stroke-width="2.5"/>
+  <line x1="90" y1="480" x2="160" y2="500" stroke="black" stroke-width="2.5"/>
+
+  <!-- position vectors -->
+  <line x1="90" y1="480" x2="374" y2="120" stroke="#cc0000" stroke-width="3" marker-end="url(#ar)"/>
+  <line x1="90" y1="480" x2="630" y2="422" stroke="#cc0000" stroke-width="3" marker-end="url(#ar)"/>
+  <line x1="406" y1="120" x2="638" y2="406" stroke="#cc0000" stroke-width="3" marker-end="url(#ar)"/>
+
+  <!-- masses -->
+  <ellipse cx="390" cy="100" rx="20" ry="14" fill="black"/>
+  <circle cx="650" cy="420" r="7" fill="black"/>
+  <text x="356" y="64" font-size="32" font-style="italic">m<tspan dy="9" font-size="23">1</tspan></text>
+  <text x="668" y="444" font-size="32" font-style="italic">m<tspan dy="9" font-size="23">2</tspan></text>
+
+  <!-- vector labels -->
+  <text x="190" y="300" font-size="34" font-style="italic" fill="#cc0000">r&#772;<tspan dy="9" font-size="24">1</tspan></text>
+  <text x="340" y="486" font-size="34" font-style="italic" fill="#cc0000">r&#772;<tspan dy="9" font-size="24">2</tspan></text>
+  <text x="560" y="252" font-size="34" font-style="italic" fill="#cc0000">r&#772;<tspan dy="9" font-size="24">12</tspan></text>
+</svg>
