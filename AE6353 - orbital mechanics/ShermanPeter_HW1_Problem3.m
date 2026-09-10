@@ -24,6 +24,7 @@ options = odeset('AbsTol', 1e-14, 'RelTol', 1e-14);
 
 % c)
 % --------------------------------------------------------------------------------------------------------------------------------------
+figure;
 distance = vecnorm(r_out(:,1:3), 2, 2); %extracting distance from raw r_out
 plot(t_out / 86400, distance); %converting from seconds to days
 
@@ -69,30 +70,79 @@ averageDistanceAU = averageDistance / (149597870700 / 1000); %averageDistanceAU 
 
 % f)
 % ---------------------------------------------------------------------------------------------------------------------------------------
-
+figure;
 h = cross(r_out(:,1:3), r_out(:,4:6)); %specific angular momentum
 plot(t_out / 86400, h); %as shown they are all constant
+grid on;
 title('specific angular momentum components Vs. Time');
 xlabel('Time (days)');
 ylabel('Specific Angular Momentum components (km^2 / s)');
 
+% g)
+% ---------------------------------------------------------------------------------------------------------------------------------------
 
+%use vis-viva equation
+E = (1/2) * (sum(r_out(:,4:6).^2, 2)) - (132712440041.279419 ./ vecnorm(r_out(:,1:3), 2, 2)); %problems with dimensionalizing make sure to set collapse from mat -> vec -> scalar
+figure;
+plot(t_out / 86400, E); %plot shows that it is indeed constant within rounding error
+grid on;
+title('specific energy of Earth Vs. Time');
+xlabel('Time (days)');
+ylabel('Specific Energy of Earth (km^2 / s^2)');
 
+% h)
+% ---------------------------------------------------------------------------------------------------------------------------------------
 
+%calculate eccentricity using orbital energy and angular momentum
+e = sqrt(1 + (2 .* E .* sum(h.^2, 2)) ./ 132712440041.279419^2); %e = 0.0167 and yes it agrees with 2022 data
 
+% i)
+% ---------------------------------------------------------------------------------------------------------------------------------------
 
+figure;
+hold on;
+plot3(r_out(:,1), r_out(:,2), r_out(:,3)); %plotting earth's trajectory
+axis equal;
+grid on;
+view(3);
+xlabel("X direction distance (km)");
+ylabel("Y direction distance (km)");
+zlabel("Z direction distance (km)");
 
+%Perihelion and Aphelion occur at minDistance and maxDistance
+[maxDistance, idx] = max(distance);
+aphelionDay = round(t_out(idx) / 86400); %recreating indexing after the previous were calendarized
 
+[minDistance, idx] = min(distance);
+perihelionDay = round(t_out(idx) / 86400);
 
+scatter3(r_out(perihelionDay, 1), r_out(perihelionDay, 2), r_out(perihelionDay, 3), 80, 'filled') %perihelion
+text(r_out(perihelionDay, 1), r_out(perihelionDay, 2), r_out(perihelionDay, 3), 'perihelion'); %label   
+scatter3(r_out(aphelionDay, 1), r_out(aphelionDay, 2), r_out(aphelionDay, 3), 80, 'filled') %aphelion
+text(r_out(aphelionDay, 1), r_out(aphelionDay, 2), r_out(aphelionDay, 3), 'aphelion'); %label
 
+%solstices and equinoxes occur at intervals of pi/2
+lambda = mod(atan2(r(:,2), r(:,1)), 2*pi);
+angleDifference = @(a,b) abs(atan2(sin(a-b), cos(a-b)));
 
+[~, seIDX] = min(angleDiff(lambda, 0));        %spring equinox
+[~, ssIDX] = min(angleDiff(lambda, pi/2));     %summer solstice
+[~, feIDX] = min(angleDiff(lambda, pi));       %fall equinox
+[~, wsIDX] = min(angleDiff(lambda, 3*pi/2));   %winter solstice
 
+scatter3(r_out(seIDX, 1), r_out(seIDX, 2), r_out(seIDX, 3), 80, 'filled'); %same plotting technique
+text(r_out(seIDX, 1), r_out(seIDX, 2), r_out(seIDX, 3), 'spring equinox');
 
+scatter3(r_out(ssIDX, 1), r_out(ssIDX, 2), r_out(ssIDX, 3), 80, 'filled');
+text(r_out(ssIDX, 1), r_out(ssIDX, 2), r_out(ssIDX, 3), 'summer solstice');
 
+scatter3(r_out(feIDX, 1), r_out(feIDX, 2), r_out(feIDX, 3), 80, 'filled');
+text(r_out(feIDX, 1), r_out(feIDX, 2), r_out(feIDX, 3), 'fall equinox')
 
+scatter3(r_out(wsIDX, 1), r_out(wsIDX, 2), r_out(wsIDX, 3), 80, 'filled');
+text(r_out(wsIDX, 1), r_out(wsIDX, 2), r_out(wsIDX, 3), 'winter solstice');
 
-
-
+hold off;
 
 %Functions
 %----------------------------------------------------------------------------------------------------------------------------------------
