@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 200" width="480" height="200">
+  <rect x="0" y="0" width="480" height="200" fill="#ffffff"/>
+  <defs>
+    <marker id="ah5" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#000000"/>
+    </marker>
+  </defs>
+
+  <circle cx="85" cy="100" r="62" fill="none" stroke="#000000" stroke-width="2.8"/>
+  <circle cx="85" cy="100" r="3.5" fill="#000000"/>
+  <line x1="85" y1="100" x2="126" y2="63" stroke="#000000" stroke-width="2.4" marker-end="url(#ah5)"/>
+  <text x="96" y="80" font-family="'STIX Two Math','Cambria Math','Times New Roman',serif" font-style="italic" font-size="21">r</text>
+
+  <!-- extent marks and brace giving the diameter -->
+  <line x1="108" y1="37" x2="172" y2="34" stroke="#000000" stroke-width="2"/>
+  <line x1="108" y1="163" x2="172" y2="166" stroke="#000000" stroke-width="2"/>
+  <path d="M 174 34 Q 188 34 188 66 Q 188 96 199 100 Q 188 104 188 134 Q 188 166 174 166"
+        fill="none" stroke="#000000" stroke-width="2.2"/>
+
+  <text x="216" y="110" font-family="'STIX Two Math','Cambria Math','Times New Roman',serif" font-style="italic" font-size="24">d = 2r = 2a = 2p</text>
+</svg>

@@ -129,7 +129,7 @@ $$
 
 ### Kronecker Delta $\delta_{ij}$
 
-Defined as $\ \delta_{ij} = \begin{cases} 1 & \text{if } j=j\\ 0 & \text{if } i\neq j \end{cases}$ $\qquad$ Thus it is the identity matrix $\bar{\bar{I}} = \delta_{ij}$
+Defined as $\ \delta_{ij} = \begin{cases} 1 & \text{if } i=j\\ 0 & \text{if } i\neq j \end{cases}$ $\qquad$ Thus it is the identity matrix $\bar{\bar{I}} = \delta_{ij}$
 
 An important property of $\delta_{ij}$ is index substitution
 

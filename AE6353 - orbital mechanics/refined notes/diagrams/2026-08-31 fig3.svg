@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" width="500" height="300">
+  <rect x="0" y="0" width="500" height="300" fill="#ffffff"/>
+  <defs>
+    <marker id="ahr3" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#cc0000"/>
+    </marker>
+    <marker id="ahb3" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1a73e8"/>
+    </marker>
+  </defs>
+
+  <!-- orbit -->
+  <ellipse cx="250" cy="170" rx="175" ry="88" fill="none" stroke="#000000" stroke-width="2.6"/>
+  <text x="140" y="178" font-family="'STIX Two Math','Cambria Math','Times New Roman',serif" font-style="italic" font-size="20">x</text>
+
+  <!-- primary at the focus -->
+  <circle cx="355" cy="170" r="10" fill="#000000"/>
+  <text x="340" y="200" font-family="'STIX Two Math','Cambria Math','Times New Roman',serif" font-style="italic" font-size="17">m<tspan dy="4" font-size="70%">1</tspan></text>
+
+  <!-- secondary on the orbit -->
+  <circle cx="184" cy="88" r="6" fill="#cc0000"/>
+  <text x="168" y="72" font-family="'STIX Two Math','Cambria Math','Times New Roman',serif" font-style="italic" font-size="17">m<tspan dy="4" font-size="70%">2</tspan></text>
+
+  <!-- radius vector -->
+  <line x1="355" y1="170" x2="192" y2="92" stroke="#cc0000" stroke-width="2.6" marker-end="url(#ahr3)"/>
+  <text x="246" y="152" font-family="'STIX Two Math','Cambria Math','Times New Roman',serif" font-style="italic" font-size="20" fill="#cc0000">r&#x0304;</text>
+
+  <!-- semi-latus rectum -->
+  <line x1="355" y1="170" x2="355" y2="100" stroke="#000000" stroke-width="2.2"/>
+  <line x1="358" y1="100" x2="428" y2="100" stroke="#000000" stroke-width="1.8" stroke-dasharray="4 6"/>
+  <path d="M 430 100 Q 442 100 442 118 Q 442 132 450 135 Q 442 138 442 152 Q 442 170 430 170"
+        fill="none" stroke="#000000" stroke-width="2"/>
+  <text x="458" y="143" font-family="'STIX Two Math','Cambria Math','Times New Roman',serif" font-style="italic" font-size="20">p</text>
+
+  <!-- eccentricity vector toward periapsis -->
+  <line x1="355" y1="170" x2="420" y2="170" stroke="#1a73e8" stroke-width="2.4" marker-end="url(#ahb3)"/>
+  <text x="418" y="194" font-family="'STIX Two Math','Cambria Math','Times New Roman',serif" font-style="italic" font-size="20" fill="#1a73e8">e&#x0302;</text>
+
+  <!-- true anomaly -->
+  <path d="M 400 170 A 45 45 0 0 0 314 150" fill="none" stroke="#0f8f76" stroke-width="2.4"/>
+  <text x="366" y="136" font-family="'STIX Two Math','Cambria Math','Times New Roman',serif" font-style="italic" font-size="20" fill="#0f8f76">&#x03B8;</text>
+</svg>
