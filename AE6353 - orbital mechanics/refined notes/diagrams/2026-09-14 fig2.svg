@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 300" font-family="'STIX Two Math','Cambria Math','Times New Roman',serif" font-size="19" font-style="italic">
+  <defs>
+    <marker id="ab" markerWidth="9" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="black"/></marker>
+  </defs>
+  <rect width="420" height="300" fill="white"/>
+  <path d="M 300,40 Q 60,150 300,260" fill="none" stroke="black" stroke-width="1.6"/>
+  <circle cx="240" cy="150" r="5" fill="black"/>
+  <line x1="180" y1="150" x2="235" y2="150" stroke="black" stroke-width="1.2"/>
+  <line x1="240" y1="72" x2="240" y2="228" stroke="black" stroke-width="1"/>
+  <line x1="268" y1="72" x2="268" y2="228" stroke="black" stroke-width="1.1" marker-start="url(#ab)" marker-end="url(#ab)"/>
+  <text x="280" y="157">2p</text>
+</svg>

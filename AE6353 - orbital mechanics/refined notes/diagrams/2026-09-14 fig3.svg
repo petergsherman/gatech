@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 340" font-family="'STIX Two Math','Cambria Math','Times New Roman',serif" font-size="19" font-style="italic">
+  <defs>
+    <marker id="ab" markerWidth="9" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="black"/></marker>
+  </defs>
+  <rect width="560" height="340" fill="white"/>
+  <line x1="60" y1="60" x2="460" y2="280" stroke="black" stroke-width="1" stroke-dasharray="6 5"/>
+  <line x1="60" y1="280" x2="460" y2="60" stroke="black" stroke-width="1" stroke-dasharray="6 5"/>
+  <line x1="40" y1="170" x2="520" y2="170" stroke="black" stroke-width="0.9" stroke-dasharray="1.5 4"/>
+  <line x1="260" y1="62" x2="260" y2="278" stroke="black" stroke-width="0.9" stroke-dasharray="6 5"/>
+  <path d="M 95,60 Q 285,170 95,280" fill="none" stroke="black" stroke-width="1.6"/>
+  <path d="M 425,60 Q 235,170 425,280" fill="none" stroke="black" stroke-width="1.6"/>
+  <line x1="260" y1="170" x2="330" y2="170" stroke="black" stroke-width="1.4"/>
+  <line x1="330" y1="170" x2="330" y2="131" stroke="black" stroke-width="1.4"/>
+  <line x1="260" y1="170" x2="330" y2="131" stroke="black" stroke-width="1.4"/>
+  <text x="293" y="190">a</text>
+  <text x="284" y="141">c</text>
+  <circle cx="340" cy="170" r="5.5" fill="black"/>
+  <line x1="340" y1="134" x2="340" y2="206" stroke="black" stroke-width="1"/>
+  <text x="352" y="153">p</text>
+  <text x="352" y="199">p</text>
+  <line x1="393" y1="134" x2="393" y2="206" stroke="black" stroke-width="1.1" marker-start="url(#ab)" marker-end="url(#ab)"/>
+  <text x="405" y="177">2p</text>
+  <line x1="262" y1="75" x2="338" y2="75" stroke="black" stroke-width="1.1" marker-start="url(#ab)" marker-end="url(#ab)"/>
+  <text x="294" y="65">c</text>
+  <path d="M 207,199 A 60 60 0 0 0 313,199" fill="none" stroke="black" stroke-width="1.1"/>
+  <text x="253" y="258" font-size="20">&#948;</text>
+  <text x="98" y="176" font-style="normal" font-size="16">×</text>
+</svg>

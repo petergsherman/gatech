@@ -154,15 +154,3 @@ $\textcolor{green}{(-)}$ <span style="color:purple">— the green ink links r̄�
 $$
 = \bar{0} \qquad \text{In general…} \quad \sum \bar{r}_i \times \bar{F}_i = \bar{0}
 $$
-
-## Cross-check findings
-
-An independent verification pass compared this transcription line-by-line against the PDF at high zoom.
-
-1. **Prose vs. equation mismatch (source, flagged):** the written law of gravitation says "inversly to the distance"; the equation correctly uses $r^2$ (inverse *square*).
-2. **Summation index (source, flagged):** the N-body force sum's lower limit is written $i=1,\ j\neq i$; the running index should be $j$. The upper limit is a small letter most resembling a lowercase $r$; $N$ is the sensible reading.
-3. **Subscript pen slip (source, flagged):** the combined torque fraction's denominator reads $r_{13}^{\,3}$; with only two bodies it should be $r_{12}^{\,3}$.
-4. **Grammar slip (source, flagged):** "conservation to the system's linear momentum" — likely "conservation of."
-5. **Transcription fixes applied after cross-check:** restored the blue underline on "Newton's Second Law"; restored the red $0$ on the canceled $\dot{m}\bar{v}$ term; narrowed the green ink annotation to just $(-)$, moving its explanation to purple.
-6. **Normalization note:** vector overbars are written inconsistently in the handwriting (e.g. $F_i$ on the left side of the N-body sum has no bar); bars were normalized throughout since the meaning is unambiguous.
-7. Everything else — every equation, colored annotation, highlight, strike-out, aside, and page-continuation merge — verified as matching the handwriting.

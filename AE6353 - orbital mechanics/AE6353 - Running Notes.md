@@ -155,18 +155,6 @@ $$
 = \bar{0} \qquad \text{In general…} \quad \sum \bar{r}_i \times \bar{F}_i = \bar{0}
 $$
 
-## Cross-check findings
-
-An independent verification pass compared this transcription line-by-line against the PDF at high zoom.
-
-1. **Prose vs. equation mismatch (source, flagged):** the written law of gravitation says "inversly to the distance"; the equation correctly uses $r^2$ (inverse *square*).
-2. **Summation index (source, flagged):** the N-body force sum's lower limit is written $i=1,\ j\neq i$; the running index should be $j$. The upper limit is a small letter most resembling a lowercase $r$; $N$ is the sensible reading.
-3. **Subscript pen slip (source, flagged):** the combined torque fraction's denominator reads $r_{13}^{\,3}$; with only two bodies it should be $r_{12}^{\,3}$.
-4. **Grammar slip (source, flagged):** "conservation to the system's linear momentum" — likely "conservation of."
-5. **Transcription fixes applied after cross-check:** restored the blue underline on "Newton's Second Law"; restored the red $0$ on the canceled $\dot{m}\bar{v}$ term; narrowed the green ink annotation to just $(-)$, moving its explanation to purple.
-6. **Normalization note:** vector overbars are written inconsistently in the handwriting (e.g. $F_i$ on the left side of the N-body sum has no bar); bars were normalized throughout since the meaning is unambiguous.
-7. Everything else — every equation, colored annotation, highlight, strike-out, aside, and page-continuation merge — verified as matching the handwriting.
-
 # 2026-08-26
 
 *Source: [[08-26-2026 - OM rough notes.pdf]] · Refined: [[2026-08-26 refined notes]]*
@@ -370,23 +358,6 @@ $$
 \bar{a} = \dot{\bar{v}} = \ddot{\bar{r}} = \ddot{x}\hat{\imath} + \ddot{y}\hat{\jmath} + \ddot{z}\hat{k} & \bar{\alpha} = \dot{\bar{\omega}} = \ddot{\bar{r}} = \left[\ddot{r} - r\dot{\theta}^2\right]\hat{e}_r + \left[2\dot{r}\dot{\theta} - r\ddot{\theta}\right]\hat{e}_\theta
 \end{array}
 $$
-
-## Cross-check findings
-
-An independent verification pass compared this transcription line-by-line against the PDF at high zoom.
-
-1. **Missing overdot (source, flagged):** the first equation's added term is inked $\sum m_i(\bar{v}_i\times\bar{r}_i)$ with no overdot on $\bar{r}_i$; for the product-rule identity to close (and for the term to vanish, $\bar{v}\times\bar{v}=0$) it should be $\bar{v}_i\times\dot{\bar{r}}_i$. Transcribed as written.
-2. **Bars dropped in work integral (source, flagged):** the $\Delta PE$ line is inked $\int F\,dr$ — no vector bars, no dot product; the line integral $\int\bar{F}\cdot d\bar{r}$ is meant. Transcribed as written.
-3. **Missing double dot (source, flagged):** on the "Typically $m_1\gg m_2$" line the left side is inked $\bar{r}_{12}$ with no dots; the acceleration $\ddot{\bar{r}}_{12}$ is meant (compare the boxed equation of motion that follows). Transcribed as written.
-4. **Symbol habit-slip in polar kinematics (source, flagged):** the polar column is inked $\bar{\omega}=\dot{\bar{r}}=\dot{r}\hat{e}_r+r\dot{\theta}\hat{e}_\theta$ and $\bar{\alpha}=\dot{\bar{\omega}}=\ddot{\bar{r}}=\ldots$, using the rotational symbols $\bar{\omega},\bar{\alpha}$ where the translational $\bar{v},\bar{a}$ are meant (carried over from the rotational column above). Transcribed as written.
-5. **Sign error in polar acceleration (source, flagged):** the $\hat{e}_\theta$ component is inked $\left[2\dot{r}\dot{\theta}-r\ddot{\theta}\right]$; correct polar kinematics gives $+r\ddot{\theta}$. Transcribed with the minus as written.
-6. **Missing overdot (source, flagged):** the Cartesian column's second line is inked $\bar{v}=\bar{r}=\dot{x}\hat{\imath}+\ldots$ — the middle $\bar{r}$ lacks its overdot. Transcribed as written.
-7. **Label slip (source, flagged):** the 10-constants summary labels the $\bar{C}_3$ line "Total momentum," though it is the *angular*-momentum constant (the same result is correctly called "Total angular momentum is conserved" earlier). Transcribed as written.
-8. **Ambiguity note:** in the N-body potential aside, a faint stroke above the denominator's $r_{ij}$ may be a bar; the scalar separation $r_{ij}$ is the only sensible reading and was used (~70% the stroke is a stray bar).
-9. **Preserved as written:** "$W$ is independent on the path taken" (grammar); $x=x_0+vt+\tfrac12 at^2$ and $\theta=\theta_0+\omega t+\tfrac12\alpha t^2$ use $v,\omega$ where $v_0,\omega_0$ is standard; lowercase $6n$ in "For $N=2$: $6n=12>10$."
-10. **Transcription fixes applied after cross-check:** removed AI-added bars/dot from the work integral; restored the subscript on the final $\ddot{\bar{r}}_i$ of the product-rule expansion; removed an added dot between $\frac{d\bar{r}_i}{dt}$ and $\frac{\partial V}{\partial\bar{r}_i}$ and restored the black $\uparrow$ under the braced sum; restored $\bar{\omega},\bar{\alpha}$, the minus in $\left[2\dot{r}\dot{\theta}-r\ddot{\theta}\right]$, and the undotted $\bar{r}$'s exactly as inked; lowercased the red "potential" label; in fig2 recolored the angle arcs blue, made both reference lines dotted, and capitalized "Zenith" to match the blue ink.
-11. Diagrams otherwise verified against the sketches — fig1 (two-body vector triangle) matches throughout; fig2's labels, colors, arrow directions, and the $\gamma$/$\phi$ placement (flight path angle off the local horizontal, zenith angle off the local vertical) are confirmed.
-12. Everything else — every equation, red cancellation, boxed result, colored annotation, aside, and page-continuation merge — verified as matching the handwriting.
 
 # 2026-08-31
 
@@ -646,21 +617,502 @@ $$
 e = \frac{c}{a}
 $$
 
-## Cross-check findings
+# 2026-09-14
 
-An independent verification pass re-rendered the PDF at high zoom and compared the transcription equation-by-equation, including a per-page colour census of the ink.
+*Source: [[09-14-2026 - om rough notes.pdf]] · Refined: [[2026-09-14 refined notes]]*
 
-1. **Hat where a bar is meant (source, flagged):** the third red line of the $\dot{r}$ derivation is inked $\tfrac{1}{2}\left(\bar{r}\cdot\hat{r}\right)^{-1/2}\left(\dot{\bar{r}}\cdot\bar{r}+\bar{r}\cdot\dot{\bar{r}}\right)$ — the second $r$ carries an unmistakable peaked caret while the first carries a flat bar. As written $\left(\bar{r}\cdot\hat{r}\right)^{-1/2}=r^{-1/2}$, not $1/r$, so the step does not close. Transcribed as inked.
-2. **Hat where a bar is meant (source, flagged):** the fourth red line ends $=\tfrac{1}{r}\left(\hat{r}\cdot\dot{\bar{r}}\right)$, again a caret set against the flat bar on the $\bar{r}$ earlier in the same line. Since $\hat{r}\cdot\dot{\bar{r}}=\dot{r}$, the line as written asserts $\dot{r}=\dot{r}/r$. The very next red line and the black $\dot{r}=\left(\bar{r}\cdot\dot{\bar{r}}\right)/r$ both use genuine bars, so these two are pen slips. Transcribed as inked.
-3. **Missing bar in a norm (source, flagged):** the red block opens $r=\left\|r\right\|$ with no accent inside the norm; $r=\left\|\bar{r}\right\|$ is meant, and the same statement at the end of the EOM line on the first page does carry the bar. Transcribed as inked.
-4. **Conic in Cartesian form set to zero (source, flagged):** $\dfrac{\left(x-x_c\right)^2}{a^2}+\dfrac{\left(y-y_c\right)^2}{b^2}=0$ — the glyph is a closed oval identical to the $0$ in $\ldots+F=0$ on the line above, whereas the writer's $1$ is a bare slash. It should be $=1$; as written it admits only the degenerate point. Transcribed as inked.
-5. **Cartesian relation reads "hy" (source, flagged):** "which is related to Cartesian coordinates $\bar{r} = hy$" is inked with a tall open-shouldered $h$ followed by a descending $y$. It is meaningless as written; $\bar{r}=\langle x,y\rangle$ is presumably intended. The only competing reading is that "$\bar{r}=$" is a false start and the sentence continued "…related to Cartesian coordinates **by**", but the shoulder never closes onto the stem the way the writer's $b$ does. Transcribed as inked, ~75% confidence in "hy".
-6. **"cone section" (source, flagged):** the wrapped line on the fourth page plainly reads "the general equation of a **cone** section in polar coordinates"; the standard term is "conic section", which the writer uses correctly one page later. Transcribed as inked. In that same line the preposition reads about equally as "in" or "on"; "in" was used.
-7. **Definition of $\theta$ (source, flagged):** "$\theta$ is defined as the angle between $\bar{r}$ and the point on the ellipse closest to the focus at the origin" — an angle is formed with the *direction* to that point, not with the point. Transcribed as inked.
-8. **Ambiguity, resolved:** the exponent in the struck-through $\bar{r}\times\left(-\mu/r^{3}\right)\bar{r}$ was read against the writer's own $2$ (a flat-based z-form) and $3$ (a round-bowled form) elsewhere on the same page — it is a $3$, ~90%, consistent with the term multiplying $\bar{r}$ rather than $\hat{r}$.
-9. **Ambiguity, resolved:** the first row of the four-way conic list is $e=0$, not $c=0$; the glyph carries the writer's characteristic mid-height entry tick, which his $c$ lacks (~85%).
-10. **Ambiguity, flagged:** in the orbit sketch the blue label on the periapsis-pointing vector is inked with a rounded arch rather than the writer's usual straight bar, so it is drawn as $\hat{e}$ even though the surrounding text defines $\bar{e}=\tfrac{1}{\mu}\bar{B}$ as the eccentricity vector. Roughly 65% confidence in the hat.
-11. **Transcription fixes applied after cross-check:** restored the two carets of findings 1 and 2, which the first draft had smoothed into bars; removed a purple gloss on the "$h$ is constant" margin note and a purple mark on the $r^{3}$ exponent — the PDF contains no purple ink anywhere, and both items are plain black. In the orbit sketch, deleted a spurious ring drawn around the green $\theta$ (the ink is a single barred-oval glyph) and relabelled the blue vector $\hat{e}$; in the ellipse sketch, recoloured $\theta$ black (it is black ink, not red), removed an added red angle arc that is not in the source, and lowercased the periapsis label to $p$; in the $\bar{r}$–$\bar{B}$ sketch, seated the angle arc on both shafts and moved the $\bar{r}$ label to mid-shaft.
-12. **Diagrams verified:** the $\bar{r}$ / $\dot{\bar{r}}$ increment sketch, the double cone with its red circle-plane and blue ellipse-plane, and the circle with its brace and $d=2r=2a=2p$ all match the sketches in labels, colours, arrow directions and geometry. In the orbit sketch the true-anomaly arc runs from the $\hat{e}$ direction counter-clockwise to the radius vector, and the semi-latus-rectum vertical lands on the ellipse, as inked.
-13. **Colour audit:** every red, blue and green item in this transcription corresponds to real coloured ink, and no coloured annotation in the PDF is missing from it.
-14. Everything else — the cross-product magnitude identity, the whole $d\bar{h}/dt$ chain with its red cancellations, both EOM forms, the $\bar{A}\times\left(\bar{B}\times\bar{C}\right)$ expansion and its red underbraces, the full $d\hat{r}/dt$ derivation with its nested braces, the integration and dot-product steps, all four $h^2$ algebra lines, the eccentricity-vector definitions, and the conic-section text — verified as matching the handwriting.
+### ellipse
+
+$0 < e < 1$
+
+![[2026-09-14 fig1.svg]]
+
+$$
+e = \frac{c}{a}
+$$
+
+### Parabola
+
+![[2026-09-14 fig2.svg]]
+
+$$
+a = \infty
+$$
+
+### Hyperbola
+
+![[2026-09-14 fig3.svg]]
+
+Now let's look at the ellipse again
+
+![[2026-09-14 fig4.svg]]
+
+$$
+c + r_p = a
+$$
+
+$$
+ea + r_p = a \ \Rightarrow\ \boxed{\begin{aligned} r_p &= a\left(1-e\right)\\ r_a &= a\left(1+e\right)\end{aligned}}
+$$
+
+Also…
+
+$$
+r_a + r_p = 2a \qquad r_a - r_p = 2c \qquad e = \frac{c}{a} = \frac{2c}{2a} = \boxed{\frac{r_a - r_p}{r_a + r_p} = e}
+$$
+
+and…
+
+$$
+r = \frac{p}{1+e\cos\theta} \qquad \begin{array}{l}\text{periapsis } \theta = 0^{\circ}\\ \text{apoapsis } \theta = 180^{\circ}\end{array} \ \Rightarrow\ \boxed{r_p = \frac{p}{1+e}} \qquad \boxed{r_a = \frac{p}{1-e}}
+$$
+
+Finally…
+
+$$
+r_p = \frac{p}{1+e} = a\left(1-e\right) \ \rightarrow\ p = a\left(1-e\right)\left(1+e\right)
+$$
+
+$$
+\boxed{p = a\left(1-e^2\right)}
+$$
+
+We can also relate specific energy to the semi-major axis:
+
+$$
+\textcolor{red}{h = r_p v_p \cos\gamma}
+$$
+
+At periapsis…
+
+$$
+\varepsilon = \frac{v_p^2}{2} - \frac{\mu}{r_p} = \frac{v_p^2 r_p^2}{2r_p^2} - \frac{2\mu r_p}{2r_p^2} = \frac{v_p^2 r_p^2 - 2\mu r_p}{2r_p^2} = \frac{h^2 - 2\mu r_p}{2r_p^2}
+$$
+
+$$
+p = \frac{h^2}{\mu} \ \rightarrow\ h^2 = p\mu
+$$
+
+$$
+\varepsilon = \frac{\mu p - 2\mu r_p}{2r_p^2} = \mu\left(\frac{p - 2r_p}{2r_p^2}\right) \qquad p = r_p + er_p
+$$
+
+$$
+= \mu\left(\frac{r_p + er_p - 2r_p}{2r_p^2}\right) = \mu\left(\frac{r_p\left(e-1\right)}{2r_p^2}\right)
+$$
+
+$$
+\varepsilon = \mu\left(\frac{e-1}{2r_p}\right) = -\mu\left(\frac{1-e}{2r_p}\right)
+$$
+
+recall that $r_p = a\left(1-e\right)$ → substitute
+
+$$
+\varepsilon = -\mu\left(\frac{\textcolor{red}{\cancel{\textcolor{black}{1-e}}}}{2a\left(\textcolor{red}{\cancel{\textcolor{black}{1-e}}}\right)}\right) = \frac{-\mu}{2a} \qquad \text{Thus,} \qquad \boxed{\varepsilon = \frac{-\mu}{2a}}
+$$
+
+lets take a look at the specific angular momentum.
+
+$$
+h = rv\cos\left(\gamma\right)
+$$
+
+Then, $h = r\,r\dot{\theta} = r^2\dfrac{d\theta}{dt}$
+
+![[2026-09-14 fig5.svg]]
+
+$$
+v\cos\gamma = r\dot{\theta}
+$$
+
+$$
+dA = \frac{1}{2}r\,r\,d\theta
+$$
+
+$$
+2dA = r^2\,d\theta
+$$
+
+$$
+h = 2\frac{dA}{dt}
+$$
+
+$$
+dt = \frac{2}{h}dA \quad \longleftarrow \text{Kepler's Second Law}
+$$
+
+integrate…
+
+$$
+\int dt = \int \frac{2}{h}\,dA
+$$
+
+$$
+P = \frac{2}{h}A \qquad \text{Area of an ellipse: } A = \pi ab
+$$
+
+<span style="color:red">↑ Period</span>
+
+$$
+b = \sqrt{a^2 - c^2}
+$$
+
+$$
+c = ae
+$$
+
+$$
+b = \sqrt{a^2 - a^2e^2}
+$$
+
+$$
+b = \sqrt{a^2\left(1-e^2\right)}
+$$
+
+$$
+b = \sqrt{ap}
+$$
+
+Thus…
+
+$$
+P = \frac{2\pi a\sqrt{ap}}{h}
+$$
+
+$$
+P = \frac{2\pi a^{3/2}\sqrt{p}}{h} \qquad h = \sqrt{\mu p} \qquad \frac{\sqrt{p}}{h} = \frac{1}{\sqrt{\mu}}
+$$
+
+$$
+\boxed{P = 2\pi\sqrt{\frac{a^3}{\mu}}} \qquad \text{Period of orbit — Kepler's third Law}
+$$
+
+Note: Proof could show up on a test!
+
+### Velocity for a circular orbit
+
+$$
+e = 0 \qquad r = p = a
+$$
+
+$$
+\varepsilon = \frac{v^2}{2} - \frac{\mu}{r} = -\frac{\mu}{2a} \ \rightarrow\ \frac{v^2}{2} - \frac{\mu}{a} = -\frac{\mu}{2a} \ \rightarrow\ \frac{v^2}{2} = \frac{2\mu}{2a} - \frac{\mu}{2a}
+$$
+
+$$
+\text{Thus…} \quad \boxed{v_c = \sqrt{\frac{\mu}{a}} = \sqrt{\frac{\mu}{r}}}
+$$
+
+**Example:** The ISS is in a ~410 km circular orbit about earth. what is the orbital speed, specific energy, period, and spec. ang. mom.
+
+A circular orbit $\quad e = 0 \quad r_c = a = p = \text{const.}$
+
+$$
+r_c = \underbrace{6378\ \text{km}}_{r_{\text{earth}}} + 410\ \text{km} = 6788\ \text{km} \qquad \mu = 3.986\times10^{5}\ \tfrac{\text{km}^3}{\text{s}^2}
+$$
+
+Speed: $\quad v_c = \sqrt{\dfrac{\mu}{r}} = 7.663\ \tfrac{\text{km}}{\text{s}}$
+
+Specific energy: $\quad \varepsilon = -\dfrac{\mu}{2r_c} = -29.36\ \tfrac{\text{km}^2}{\text{s}^2}$
+
+Period: $\quad P = 2\pi\sqrt{\dfrac{a^3}{\mu}} = 5{,}566\ \text{sec}$ or $92.76\ \text{min}$
+
+Specific ang. mom. $\quad h = rv\cos\gamma = r_c v_c = 5.2\times10^{4}\ \tfrac{\text{km}^2}{\text{s}}$
+
+---
+
+**Example:** on march 10th, 2006 the mars reconnassance orbiter (MRO) performed a propulsive manuever to insert into a highly ellyptical orbit around mars. This was the beginning of a period of aerobraking. This initial orbit had an appoapsis of 45,000 km and periopsis at 450 km.
+what is the orbit semi-major axis, ecc, period, and speed…
+
+![[2026-09-14 fig6.svg]]
+
+Compute radii:
+
+$$
+r_a = 3{,}389\ \text{km} + 45{,}000 = 48{,}389\ \text{km}
+$$
+
+$$
+r_p = 3{,}389\ \text{km} + 450 = 3{,}819\ \text{km}
+$$
+
+Semi-major: $\quad a = \dfrac{r_a + r_p}{2} = 26{,}104\ \text{km}$
+
+eccentricity: $\quad e = \dfrac{r_a - r_p}{r_a + r_p} = 0.85$
+
+Period: $\quad P = 2\pi\sqrt{\dfrac{a^3}{\mu}} = 1.277\times10^{5}\ \text{sec} = 35.48\ \text{hr}$
+
+Speed at periapsis: $\quad$ Method #1: $\ \varepsilon = -\dfrac{\mu}{2a} = \dfrac{v_p^2}{2} - \dfrac{\mu}{r_p} \ \rightarrow\ v_p = 4.57\ \tfrac{\text{km}}{\text{s}}$
+
+Method #2:
+
+$$
+p = r_p\left(1+e\right) \qquad h = \sqrt{\mu p} = v_p r_p \qquad v_p = \sqrt{\frac{\mu\left(1+e\right)}{r_p}} = 4.57\ \tfrac{\text{km}}{\text{s}}
+$$
+
+---
+
+We have just considered examples of circular and elliptical orbits.
+
+- If we imagine an elliptical orbit which apoasis is stretched further until reaching infinity
+
+$$
+\varepsilon = -\frac{\mu}{2a} = -\frac{\mu}{2\infty} = 0
+$$
+
+more over…
+
+$$
+\varepsilon = \frac{v^2}{2} - \frac{\mu}{r} = 0
+$$
+
+as $r \rightarrow \infty$ … $\varepsilon = \dfrac{v^2}{2} \rightarrow 0$ thus, $v \rightarrow 0$
+
+$v = 0$ @ $r_\infty$ for a parabolic orbit
+
+$$
+\frac{v^2}{2} - \frac{\mu}{r} = 0 \ \rightarrow\ \frac{v^2}{2} = \frac{\mu}{r}
+$$
+
+$$
+\boxed{v_{esc} = \sqrt{\frac{2\mu}{r}}} \ \rightarrow\ \text{escape velocity}
+$$
+
+If $v < v_{esc} \rightarrow \varepsilon < 0 \rightarrow$ closed orbit
+$v > v_{esc} \rightarrow \varepsilon > 0 \rightarrow$ open orbit
+
+✱Note… We rarely encounter purely parabolic orbits
+
+If we reach $r_\infty$ with some velocity, then we must be in a hyperbolic orbit…
+
+![[2026-09-14 fig7.svg]]
+
+$$
+\sin\left(\frac{\delta}{2}\right) = \frac{a}{c} \qquad e = \sqrt{1 + \frac{b^2}{a^2}}
+$$
+
+$$
+a^2e^2 = a^2 + b^2 = c^2
+$$
+
+Thus, $c = ae$
+
+and $\ \sin\left(\dfrac{\delta}{2}\right) = \dfrac{a}{ae} = \dfrac{1}{e}$
+
+Consider the speed for away from the central body
+
+$$
+\varepsilon = \frac{v^2}{2} - \frac{\mu}{r} = \frac{v_\infty^2}{2} - \overset{\textcolor{red}{0}}{\textcolor{red}{\cancel{\textcolor{black}{\frac{\mu}{\infty}}}}} = \frac{v_\infty^2}{2} \ \Rightarrow\ \varepsilon = \frac{v_\infty^2}{2} > 0
+$$
+
+![[2026-09-14 fig8.svg]]
+
+$$
+\Delta = \text{miss distance}
+$$
+
+$$
+\bar{h} = \bar{r}\times\bar{v} = v_\infty \Delta\,\hat{h}
+$$
+
+$$
+h = v_\infty \Delta
+$$
+
+**Example:** Consider a spacecraft performing a flyby of venus, on approach it has a hyperbolic excess speed of $v_\infty = 3.5\ \tfrac{\text{km}}{\text{s}}$ and a miss distance of $\Delta = 30{,}000$ km.
+
+Find specific energy, specific angular momentum, periopsis radius, and turn angle.
+
+![[2026-09-14 fig9.svg]]
+
+$\varepsilon = \dfrac{v_\infty^2}{2} =$ <mark style="background:#ffec99">6.125 km²/s²</mark>
+
+$h = v_\infty\Delta =$ <mark style="background:#ffec99">105,000 km²/s</mark>
+
+$\mu = 3.257\times10^{5}\ \tfrac{\text{km}^3}{\text{s}^2}$
+
+$\varepsilon = -\dfrac{\mu}{2a} \ \rightarrow\ a = -\dfrac{\mu}{2\varepsilon} = -2.66\times10^{4}\ \text{km}$
+
+$$
+p = \frac{h^2}{\mu} = a\left(1-e^2\right) = 3.385\times10^{4}\ \text{km}
+$$
+
+$$
+\downarrow
+$$
+
+$$
+e = \sqrt{1 - \frac{p}{a}} \ \rightarrow\ e = 1.508
+$$
+
+$r_p = a\left(1-e\right) =$ <mark style="background:#ffec99">13,500 km</mark>
+
+$\sin\left(\dfrac{\delta}{2}\right) = \dfrac{1}{e} \ \rightarrow\ \delta = 2\sin^{-1}\left(\dfrac{1}{e}\right) =$ <mark style="background:#ffec99">83 deg</mark>
+
+### Orbital elements…
+
+Two body orbits follow the path of a conic section.
+This is a planar trajectory through space
+
+We can define the shape and orientation of a two-body conic using the orbital elements
+
+6 classical orbital elements that describe the shape and orientation of an orbit relative to a convenient refrence frame
+
+- Let $\langle \hat{\imath}, \hat{\jmath}, \hat{k} \rangle$ be the basis for this inertial frame.
+
+$a$: semi-major axis (size of orbit)
+
+$e$: eccentricity (shape)
+
+$i$: inclination — angle between $\hat{k}$ and the orbit's $\bar{h}$.
+
+$\Omega$: right ascention of the ascending Node (RAAN) — angle î–ĵ plane between $\hat{\imath}$ and where the orbit passes from negative to positive z-values.
+
+$\omega$: argument of periopsis — angle in the plane of the orbit between the ascending node and the periopsis (Measured in the direction of orbit)
+
+$T$: time of periopsis passage (Also called true anomoly at epoch)
+
+### Reference Frames
+
+The most important inertial frame for astrodynamics is:
+
+ICRF (Inertial Celestial Refrence Frame)
+
+The international celestial refrence system is ICRS
+
+✱ we define ICRF from ICRS
+
+The origin is at the Solar system's barycenter (SSB) and its axes are fixed relative to distant objects (quasars)
+
+↳ refrence sources are the objects in space
+
+ICRF (Realization) of ICRS (specification)
+
+The alignment of ICRS axes was chosen to be such that:
+
+"The principle plane should be as near as possible to the mean equator at J200.0 and the origin in this principle plane be as near to dynamical equinox at J200"
+
+↓
+z-axis (defines the principle plane): perpendicular to Earth's equatorial plane
+
+x-axis: ascending node of the eclyptic plane at equatorial plane
+
+y-axis: Complete R.H.S
+
+While the axis are tied to distant sources, the initial alignment was selected based on the following dynamical frame at J2000 (No longer perfectly aligned)
+
+Important: Since both planes (equatorial and ellyptical) are moving, you must specify an epoch at which the frame was generated
+
+---
+
+ICRF specifies the "usual" direction of the coordinate axes for inertial frames used in spacecraft and astronomy
+
+we say things like Earth-Centered Inertial (ECI) … etc
+
+↳ We usually mean that the ICRF axes are moved of the specified central body.
+
+The other common frame is Earth-Centered-Earth-Fixed (ECEF), with origin at center of earth and coordinate axis rigidly Fixed.
+
+![[2026-09-14 fig10.svg]]
+
+$$
+\text{ERA} = \text{GMST} + \varepsilon_{\text{prec}} \quad \longleftarrow \text{precession of equinoxes}
+$$
+
+↑ Greenwich mean Sideral time (Angle) <span style="color:red">(15 degrees per hour)</span>
+
+### Solar and Sideral time
+
+Solar time: based on the time for the sun to return to a refrence meridian
+
+↓ in mean solar time: 1 day = 24 hrs = <u>86,400 s</u>
+
+length of an SI second is 9,192,631,700 periods of radiation of Cesium-133.
+
+↓ Selected for 86,400 sec day in the year 1900.
+
+### Sideral time:
+
+based on time to return equinox to refrence meridian
+
+### Atomic time and civil time
+
+int. Atomic time (TAI): Continuous time scale based on the SI Second
+
+Civil time (UTC): Adjustment of TAI by an integer number of leap seconds to keep UTC with 0.9 sec of UT1 (based on ERA)
+
+### Canonical units
+
+Canonical units normalize "regular units" (eg. km, km/s) to quantities that are of a similar magnitude and sometimes lead to better numerical performance when working in limited precision.
+
+### Procedure:
+
+1. Pick a refrence distance: distance unit (DU)
+   a. earth orbit $\ 1\text{DU} = R_e = 6378$ km
+   b. Sun orbit $\ 1\text{DU} = 1\text{AU} = 1.496\times10^{8}$ km
+2. Define $\mu = \dfrac{\text{DU}^3}{\text{TU}^2}$ ← This sets TU
+3. Compute TU → $1\text{TU} = \sqrt{\dfrac{1\text{DU}^3}{\mu}}$ $\quad$ eg. earth: TU = 807 sec
+
+### The Perifocal Frame
+
+The perifocal frame is one of the most common frames we will use this semester.
+
+↳ Origin is at the focus (location of central body), with x-axis pointing towards the periopsis.
+
+Recall from before:
+
+![[2026-09-14 fig11.svg]]
+
+$$
+\bar{r}\cdot\bar{B} = rB\cos\theta \qquad \bar{B} = \dot{\bar{r}}\times\bar{h} - \mu\frac{\bar{r}}{r}
+$$
+
+then we said $e = \dfrac{B}{\mu}$ →
+
+$$
+\bar{e} = \frac{1}{\mu}\bar{B} = \frac{1}{\mu}\left(\dot{\bar{r}}\times\bar{h} - \mu\frac{\bar{r}}{r}\right)
+$$
+
+![[2026-09-14 fig12.svg]]
+
+$$
+\bar{r}\cdot\bar{e} = re\cos\theta
+$$
+
+and we observed that periopsis occurs at $\theta = 0^{\circ}$
+
+<span style="color:red">✱IMPORTANT: STUDY THIS</span>
+
+therefore, $\bar{e}$ points from the focus towards periopsis and is the x-axis.
+
+Define $\hat{p}$ as the unit vector in the perifocal frame in the x-direction
+
+$$
+\hat{p} = \frac{\bar{e}}{\left\|\bar{e}\right\|} = \frac{\bar{e}}{e}
+$$
+
+Define $\hat{w}$ as normal to the orbit plane, positive in the direction of the specific angular momentum.
+
+$$
+\hat{w} = \frac{\bar{h}}{\left\|\bar{h}\right\|} = \frac{\bar{h}}{h}
+$$
+
+let $\hat{q}$ complete the right hand system (RHS)
+
+$$
+\hat{q} = \hat{w}\times\hat{p}
+$$
+
+![[2026-09-14 fig13.svg]]
+
+$$
+\bar{r} = x\hat{p} + y\hat{q} \qquad x = r\cos\theta\ ,\ y = r\sin\theta\ ,\ z = 0
+$$
+
+$$
+R_I^P = \left[\hat{p}, \hat{q}, \hat{w}\right] \ \rightarrow\ \text{from } P \text{ to } I
+$$
+
+$$
+R_P^I = \begin{bmatrix}\hat{p}^T\\ \hat{q}^T\\ \hat{w}^T\end{bmatrix} \ \rightarrow\ \text{from } I \text{ to } P
+$$

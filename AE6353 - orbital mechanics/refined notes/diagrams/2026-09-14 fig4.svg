@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 260" font-family="'STIX Two Math','Cambria Math','Times New Roman',serif" font-size="19" font-style="italic">
+  <defs>
+    <marker id="ab" markerWidth="9" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="black"/></marker>
+  </defs>
+  <rect width="560" height="260" fill="white"/>
+  <ellipse cx="260" cy="120" rx="180" ry="80" fill="none" stroke="black" stroke-width="1.6"/>
+  <line x1="60" y1="120" x2="460" y2="120" stroke="black" stroke-width="1.2"/>
+  <line x1="80" y1="30" x2="80" y2="212" stroke="black" stroke-width="0.9"/>
+  <line x1="440" y1="30" x2="440" y2="212" stroke="black" stroke-width="0.9"/>
+  <line x1="260" y1="18" x2="260" y2="34" stroke="black" stroke-width="0.9"/>
+  <circle cx="160" cy="120" r="4" fill="black"/>
+  <circle cx="360" cy="120" r="7" fill="black"/>
+  <line x1="80" y1="26" x2="260" y2="26" stroke="black" stroke-width="1.1" marker-start="url(#ab)" marker-end="url(#ab)"/>
+  <text x="165" y="18">a</text>
+  <line x1="260" y1="26" x2="440" y2="26" stroke="black" stroke-width="1.1" marker-start="url(#ab)" marker-end="url(#ab)"/>
+  <text x="345" y="18">a</text>
+  <text x="205" y="141">c</text>
+  <text x="306" y="141">c</text>
+  <line x1="80" y1="200" x2="360" y2="200" stroke="black" stroke-width="1.1" marker-start="url(#ab)" marker-end="url(#ab)"/>
+  <text x="212" y="224">r<tspan dy="5" font-size="70%">a</tspan></text>
+  <line x1="360" y1="200" x2="440" y2="200" stroke="black" stroke-width="1.1" marker-start="url(#ab)" marker-end="url(#ab)"/>
+  <text x="392" y="224">r<tspan dy="5" font-size="70%">p</tspan></text>
+</svg>

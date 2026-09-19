@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 340" font-family="'STIX Two Math','Cambria Math','Times New Roman',serif" font-size="19" font-style="italic">
+  <rect width="580" height="340" fill="white"/>
+  <line x1="110" y1="28" x2="550" y2="292" stroke="black" stroke-width="1" stroke-dasharray="6 5"/>
+  <line x1="110" y1="292" x2="550" y2="28" stroke="black" stroke-width="1" stroke-dasharray="6 5"/>
+  <line x1="90" y1="160" x2="560" y2="160" stroke="black" stroke-width="0.9" stroke-dasharray="8 4 1.5 4"/>
+  <path d="M 115,46 Q 345,160 115,274" fill="none" stroke="black" stroke-width="1.6"/>
+  <circle cx="213" cy="160" r="6" fill="black"/>
+  <line x1="130" y1="280" x2="530" y2="40" stroke="red" stroke-width="1.7"/>
+  <line x1="110" y1="221.8" x2="390" y2="53.8" stroke="black" stroke-width="0.9" stroke-dasharray="8 4 1.5 4"/>
+  <line x1="150" y1="198" x2="181" y2="249" stroke="black" stroke-width="1.2"/>
+  <path d="M 155,206 L 164,201 L 169,209" fill="none" stroke="black" stroke-width="1"/>
+  <text x="130" y="245" font-size="20">&#916;</text>
+</svg>

@@ -210,20 +210,3 @@ $$
 \bar{a} = \dot{\bar{v}} = \ddot{\bar{r}} = \ddot{x}\hat{\imath} + \ddot{y}\hat{\jmath} + \ddot{z}\hat{k} & \bar{\alpha} = \dot{\bar{\omega}} = \ddot{\bar{r}} = \left[\ddot{r} - r\dot{\theta}^2\right]\hat{e}_r + \left[2\dot{r}\dot{\theta} - r\ddot{\theta}\right]\hat{e}_\theta
 \end{array}
 $$
-
-## Cross-check findings
-
-An independent verification pass compared this transcription line-by-line against the PDF at high zoom.
-
-1. **Missing overdot (source, flagged):** the first equation's added term is inked $\sum m_i(\bar{v}_i\times\bar{r}_i)$ with no overdot on $\bar{r}_i$; for the product-rule identity to close (and for the term to vanish, $\bar{v}\times\bar{v}=0$) it should be $\bar{v}_i\times\dot{\bar{r}}_i$. Transcribed as written.
-2. **Bars dropped in work integral (source, flagged):** the $\Delta PE$ line is inked $\int F\,dr$ — no vector bars, no dot product; the line integral $\int\bar{F}\cdot d\bar{r}$ is meant. Transcribed as written.
-3. **Missing double dot (source, flagged):** on the "Typically $m_1\gg m_2$" line the left side is inked $\bar{r}_{12}$ with no dots; the acceleration $\ddot{\bar{r}}_{12}$ is meant (compare the boxed equation of motion that follows). Transcribed as written.
-4. **Symbol habit-slip in polar kinematics (source, flagged):** the polar column is inked $\bar{\omega}=\dot{\bar{r}}=\dot{r}\hat{e}_r+r\dot{\theta}\hat{e}_\theta$ and $\bar{\alpha}=\dot{\bar{\omega}}=\ddot{\bar{r}}=\ldots$, using the rotational symbols $\bar{\omega},\bar{\alpha}$ where the translational $\bar{v},\bar{a}$ are meant (carried over from the rotational column above). Transcribed as written.
-5. **Sign error in polar acceleration (source, flagged):** the $\hat{e}_\theta$ component is inked $\left[2\dot{r}\dot{\theta}-r\ddot{\theta}\right]$; correct polar kinematics gives $+r\ddot{\theta}$. Transcribed with the minus as written.
-6. **Missing overdot (source, flagged):** the Cartesian column's second line is inked $\bar{v}=\bar{r}=\dot{x}\hat{\imath}+\ldots$ — the middle $\bar{r}$ lacks its overdot. Transcribed as written.
-7. **Label slip (source, flagged):** the 10-constants summary labels the $\bar{C}_3$ line "Total momentum," though it is the *angular*-momentum constant (the same result is correctly called "Total angular momentum is conserved" earlier). Transcribed as written.
-8. **Ambiguity note:** in the N-body potential aside, a faint stroke above the denominator's $r_{ij}$ may be a bar; the scalar separation $r_{ij}$ is the only sensible reading and was used (~70% the stroke is a stray bar).
-9. **Preserved as written:** "$W$ is independent on the path taken" (grammar); $x=x_0+vt+\tfrac12 at^2$ and $\theta=\theta_0+\omega t+\tfrac12\alpha t^2$ use $v,\omega$ where $v_0,\omega_0$ is standard; lowercase $6n$ in "For $N=2$: $6n=12>10$."
-10. **Transcription fixes applied after cross-check:** removed AI-added bars/dot from the work integral; restored the subscript on the final $\ddot{\bar{r}}_i$ of the product-rule expansion; removed an added dot between $\frac{d\bar{r}_i}{dt}$ and $\frac{\partial V}{\partial\bar{r}_i}$ and restored the black $\uparrow$ under the braced sum; restored $\bar{\omega},\bar{\alpha}$, the minus in $\left[2\dot{r}\dot{\theta}-r\ddot{\theta}\right]$, and the undotted $\bar{r}$'s exactly as inked; lowercased the red "potential" label; in fig2 recolored the angle arcs blue, made both reference lines dotted, and capitalized "Zenith" to match the blue ink.
-11. Diagrams otherwise verified against the sketches — fig1 (two-body vector triangle) matches throughout; fig2's labels, colors, arrow directions, and the $\gamma$/$\phi$ placement (flight path angle off the local horizontal, zenith angle off the local vertical) are confirmed.
-12. Everything else — every equation, red cancellation, boxed result, colored annotation, aside, and page-continuation merge — verified as matching the handwriting.

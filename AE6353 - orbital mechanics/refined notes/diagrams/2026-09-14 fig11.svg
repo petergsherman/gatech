@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 230" font-family="'STIX Two Math','Cambria Math','Times New Roman',serif" font-size="19" font-style="italic">
+  <defs>
+    <marker id="ab" markerWidth="9" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="black"/></marker>
+  </defs>
+  <rect width="380" height="230" fill="white"/>
+  <line x1="70" y1="180" x2="300" y2="180" stroke="black" stroke-width="1.4" marker-end="url(#ab)"/>
+  <text x="308" y="186">B&#772;</text>
+  <line x1="70" y1="180" x2="200" y2="70" stroke="black" stroke-width="1.4" marker-end="url(#ab)"/>
+  <text x="205" y="60">r&#772;</text>
+  <path d="M 115,180 A 45 45 0 0 0 104,152" fill="none" stroke="black" stroke-width="1.1"/>
+  <text x="122" y="164" font-size="17">&#952;</text>
+  <text x="200" y="32" font-style="normal" font-size="16">true anomaly</text>
+  <line x1="222" y1="40" x2="128" y2="150" stroke="black" stroke-width="0.9"/>
+</svg>
