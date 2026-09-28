@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 260" font-family="'STIX Two Math','Cambria Math','Times New Roman',serif" font-size="17" font-style="italic">
+  <defs>
+    <marker id="ab10" markerWidth="9" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="black"/></marker>
+  </defs>
+  <rect width="380" height="260" fill="white"/>
+  <text x="55" y="24" font-size="17">Hyperbolic with r&#772;<tspan dy="4" font-size="65%">0</tspan> before periapsis</text>
+  <line x1="190" y1="230" x2="190" y2="40" stroke="black" stroke-width="1.2" marker-end="url(#ab10)"/>
+  <text x="196" y="44" font-size="16">&#916;t</text>
+  <line x1="40" y1="135" x2="350" y2="135" stroke="black" stroke-width="1.2" marker-end="url(#ab10)"/>
+  <text x="356" y="141" font-size="16">&#967;</text>
+  <path d="M 60,205 C 110,190 150,165 175,145 S 205,125 230,105 C 260,85 300,60 330,50"
+        fill="none" stroke="red" stroke-width="2"/>
+  <circle cx="190" cy="135" r="3" fill="red"/>
+  <text x="150" y="118" font-size="14">periapsis</text>
+</svg>

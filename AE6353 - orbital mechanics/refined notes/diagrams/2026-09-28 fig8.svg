@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 200" font-family="'STIX Two Math','Cambria Math','Times New Roman',serif" font-size="19" font-style="italic">
+  <rect width="240" height="200" fill="white"/>
+  <line x1="30" y1="100" x2="210" y2="100" stroke="black" stroke-width="1.3"/>
+  <path d="M 60,100 A 60 60 0 0 1 180,100" fill="none" stroke="red" stroke-width="1.8"/>
+  <path d="M 60,100 A 60 60 0 0 0 180,100" fill="none" stroke="#1a73e8" stroke-width="1.8"/>
+  <text x="112" y="28" fill="red" font-size="19">A</text>
+  <text x="112" y="188" fill="#1a73e8" font-size="19">B</text>
+</svg>

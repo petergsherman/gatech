@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 220" font-family="'STIX Two Math','Cambria Math','Times New Roman',serif" font-size="18" font-style="italic">
+  <defs>
+    <pattern id="hatchA3" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1a73e8" stroke-width="1.2"/>
+    </pattern>
+  </defs>
+  <rect width="420" height="220" fill="white"/>
+  <ellipse cx="220" cy="120" rx="170" ry="70" fill="none" stroke="black" stroke-width="1.6"/>
+  <ellipse cx="220" cy="120" rx="195" ry="95" fill="none" stroke="black" stroke-width="1" stroke-dasharray="4 3"/>
+  <path d="M 345,120 L 388,95 A 49.7 49.7 0 0 1 388,145 Z" fill="url(#hatchA3)" stroke="none"/>
+  <text x="366" y="122" fill="#1a73e8" font-size="15">A</text>
+  <circle cx="345" cy="120" r="3.5" fill="black"/>
+  <path d="M 345,120 L 388,95 M 345,120 L 388,145" fill="none" stroke="black" stroke-width="1.4"/>
+  <path d="M 355,110 A 15 15 0 0 1 355,131" fill="none" stroke="black" stroke-width="1"/>
+  <text x="358" y="124" font-size="15">&#952;</text>
+  <text x="392" y="90" font-size="16">t</text>
+  <text x="392" y="150" font-size="16">t<tspan dy="4" font-size="65%">0</tspan></text>
+  <text x="150" y="35" font-size="16">auxiliary circle</text>
+  <path d="M 195,42 Q 175,55 175,72" fill="none" stroke="black" stroke-width="1"/>
+</svg>

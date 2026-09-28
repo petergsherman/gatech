@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 250" font-family="'STIX Two Math','Cambria Math','Times New Roman',serif" font-size="18" font-style="italic">
+  <defs>
+    <marker id="ab7" markerWidth="9" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="red"/></marker>
+  </defs>
+  <rect width="360" height="250" fill="white"/>
+  <ellipse cx="180" cy="140" rx="150" ry="80" fill="none" stroke="black" stroke-width="1.6"/>
+  <circle cx="180" cy="140" r="4" fill="black"/>
+  <line x1="180" y1="140" x2="325" y2="140" stroke="black" stroke-width="1"/>
+  <line x1="180" y1="140" x2="308" y2="119" stroke="black" stroke-width="1.6" marker-end="url(#ab7)"/>
+  <text x="313" y="117" font-size="16">t<tspan dy="4" font-size="65%">1</tspan></text>
+  <text x="255" y="132" font-size="14">15&#176;</text>
+  <line x1="180" y1="140" x2="76" y2="50" stroke="red" stroke-width="1.6" marker-end="url(#ab7)"/>
+  <text x="55" y="42" fill="red" font-size="16">t<tspan dy="4" font-size="65%">2</tspan></text>
+  <text x="120" y="88" font-size="14">130&#176;</text>
+  <path d="M 76,60 Q 40,90 55,40" fill="none" stroke="red" stroke-width="1.2" marker-end="url(#ab7)"/>
+  <text x="20" y="30" fill="red" font-size="16">&#916;t?</text>
+</svg>

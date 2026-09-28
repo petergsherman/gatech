@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 320" font-family="'STIX Two Math','Cambria Math','Times New Roman',serif" font-size="18" font-style="italic">
+  <defs>
+    <marker id="ab4" markerWidth="9" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="black"/></marker>
+    <pattern id="hatchA1" width="7" height="7" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="7" stroke="#3fae6a" stroke-width="1.4"/>
+    </pattern>
+    <pattern id="hatchA2" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#0f6b32" stroke-width="1.6"/>
+    </pattern>
+  </defs>
+  <rect width="500" height="320" fill="white"/>
+
+  <circle cx="260" cy="235" r="190" fill="none" stroke="black" stroke-width="1" stroke-dasharray="4 3"/>
+  <ellipse cx="260" cy="235" rx="190" ry="120" fill="none" stroke="black" stroke-width="1.7"/>
+
+  <!-- A2 triangle F-C-B -->
+  <path d="M 355,235 L 260,235 L 355,70.5 Z" fill="url(#hatchA2)" stroke="none"/>
+  <!-- A1 sector F-P-arc-Q -->
+  <path d="M 450,235 A 190 120 0 0 0 355,131.1 L 355,235 Z" fill="url(#hatchA1)" stroke="none"/>
+
+  <ellipse cx="260" cy="235" rx="190" ry="120" fill="none" stroke="black" stroke-width="1.7"/>
+
+  <!-- axes -->
+  <line x1="70" y1="235" x2="450" y2="235" stroke="black" stroke-width="1.2"/>
+  <line x1="260" y1="235" x2="260" y2="60" stroke="black" stroke-width="1.2" marker-end="url(#ab4)"/>
+  <text x="266" y="90" font-size="16">b</text>
+  <text x="150" y="255" font-size="16">a</text>
+  <path d="M 70,255 L 260,255" stroke="black" stroke-width="1" marker-end="url(#ab4)"/>
+  <path d="M 260,255 L 70,255" stroke="black" stroke-width="1" marker-end="url(#ab4)"/>
+
+  <text x="290" y="255" font-size="15">c&#160;=&#160;ea</text>
+  <path d="M 260,270 L 355,270" stroke="black" stroke-width="1" marker-end="url(#ab4)"/>
+
+  <!-- center, focus, B, P, Q -->
+  <circle cx="260" cy="235" r="3.2" fill="black"/>
+  <text x="243" y="250" font-size="14">C</text>
+  <circle cx="355" cy="235" r="4.5" fill="black"/>
+  <circle cx="450" cy="235" r="3" fill="black"/>
+  <text x="456" y="240" font-size="16">P</text>
+  <circle cx="355" cy="70.5" r="3" fill="black"/>
+  <text x="362" y="66" font-size="16">B</text>
+  <circle cx="355" cy="131.1" r="3" fill="black"/>
+
+  <line x1="355" y1="70.5" x2="355" y2="235" stroke="black" stroke-width="0.9" stroke-dasharray="3 3"/>
+  <line x1="260" y1="235" x2="355" y2="70.5" stroke="black" stroke-width="1.3"/>
+  <line x1="355" y1="235" x2="355" y2="131.1" stroke="black" stroke-width="1.5"/>
+
+  <path d="M 300,235 A 45 45 0 0 1 322,196" fill="none" stroke="#1a73e8" stroke-width="1.1"/>
+  <text x="313" y="205" fill="#1a73e8" font-size="16">&#949;</text>
+
+  <path d="M 385,235 A 30 30 0 0 1 373,209" fill="none" stroke="red" stroke-width="1.1"/>
+  <text x="366" y="212" fill="red" font-size="16">&#952;</text>
+
+  <text x="60" y="185" fill="#3fae6a" font-size="16">A<tspan dy="4" font-size="65%">1</tspan></text>
+  <text x="295" y="200" fill="#0f6b32" font-size="16">A<tspan dy="4" font-size="65%">2</tspan></text>
+</svg>

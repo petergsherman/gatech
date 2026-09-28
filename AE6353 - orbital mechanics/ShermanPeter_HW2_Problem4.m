@@ -19,10 +19,10 @@ around 1550 to 2650
 %Part B
 %-----------------------------------------------------------------------------------------
 
-dir = 'C:\Users\User\Documents\MATLAB\kernels';
-cspice_furnsh(fullfile(dir, 'naif0012.tls'));
-cspice_furnsh(fullfile(dir, 'pck00010.tpc'));
-cspice_furnsh(fullfile(dir, 'de440.bsp'));
+kernelDir = fileparts(mfilename('fullpath')); 
+cspice_furnsh(fullfile(kernelDir, 'naif0012.tls'));
+cspice_furnsh(fullfile(kernelDir, 'pck00010.tpc'));
+cspice_furnsh(fullfile(kernelDir, 'de440.bsp'));
 
 et0 = cspice_str2et('2026 SEP 28 00:00:00.0 UTC'); %ephemeris time at epoch
 state0 = cspice_spkezr('EARTH BARYCENTER', et0, 'J2000', 'NONE', 'SOLAR SYSTEM BARYCENTER'); %state at epoch
