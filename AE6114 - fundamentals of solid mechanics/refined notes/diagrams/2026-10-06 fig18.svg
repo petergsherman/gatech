@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="240" viewBox="0 0 320 240">
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#000"/></marker></defs>
+<rect width="320" height="240" fill="#fff"/>
+<line x1="50" y1="200" x2="50" y2="25" stroke="#000" stroke-width="2" marker-end="url(#a)"/>
+<line x1="50" y1="200" x2="285" y2="200" stroke="#000" stroke-width="2" marker-end="url(#a)"/>
+<polyline points="50,200 50,95 140,95 140,200" fill="none" stroke="#d00" stroke-width="2"/>
+<path d="M50,198 C95,198 115,190 130,175 C150,155 160,120 165,80 C120,88 85,90 50,92" fill="none" stroke="#1a56db" stroke-width="2.5"/>
+<g font-family="'STIX Two Math','Cambria Math','Times New Roman',serif" font-style="italic" font-size="18">
+<text x="34" y="22">ē<tspan dy="4" font-size="70%">2</tspan></text>
+<text x="272" y="224">ē<tspan dy="4" font-size="70%">1</tspan></text>
+</g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="300" viewBox="0 0 640 300">
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#000"/></marker></defs>
+<rect width="640" height="300" fill="#fff"/>
+<path d="M60,215 C40,185 60,160 80,130 C100,95 110,70 150,52 C190,38 225,45 232,75 C238,105 205,135 175,170 C145,205 110,240 85,235 C72,232 65,225 60,215 Z" fill="none" stroke="#000" stroke-width="2"/>
+<path d="M75,205 C65,170 90,140 110,105 C125,80 150,65 180,68 C195,90 175,120 150,150 C125,185 100,205 75,205" fill="none" stroke="#000" stroke-width="1.2" stroke-dasharray="5 4"/>
+<line x1="150" y1="165" x2="170" y2="148" stroke="#000" stroke-width="1.5"/>
+<path d="M410,230 C420,205 450,200 475,190 C495,170 495,110 520,70 C545,35 595,40 600,85 C605,120 580,145 548,160 C530,185 520,205 495,225 C470,245 430,258 410,245 Z" fill="none" stroke="#000" stroke-width="2"/>
+<path d="M430,228 C445,215 470,210 490,195 C510,180 515,130 535,95 C550,70 575,70 580,95 C575,115 555,130 535,145 C520,170 505,195 480,215 C460,230 440,238 430,228" fill="none" stroke="#000" stroke-width="1.2" stroke-dasharray="5 4"/>
+<line x1="568" y1="148" x2="582" y2="134" stroke="#000" stroke-width="1.5"/>
+<path d="M265,128 C310,112 360,112 400,125" fill="none" stroke="#000" stroke-width="1.5" marker-end="url(#a)"/>
+<g font-family="'STIX Two Math','Cambria Math','Times New Roman',serif" font-style="italic" font-size="22">
+<text x="285" y="88">χ̄(X̄)</text>
+<text x="176" y="165">E<tspan dy="4" font-size="70%">0</tspan></text>
+<text x="85" y="268">B<tspan dy="4" font-size="70%">0</tspan></text>
+<text x="590" y="150">E</text>
+<text x="415" y="285">B</text>
+</g>
+</svg>

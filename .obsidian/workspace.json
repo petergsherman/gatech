@@ -13,12 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AE6353 - orbital mechanics/AE6353 - Test 1 Study Guide.md",
+                "file": "AE6114 - fundamentals of solid mechanics/AE6114 - Exam 1 Study Guide.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AE6353 - Test 1 Study Guide"
+              "title": "AE6114 - Exam 1 Study Guide"
+            }
+          },
+          {
+            "id": "dd2e77bfe736b530",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "AE6353 - orbital mechanics/AE6353_Equation_Sheet_Test1.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "AE6353_Equation_Sheet_Test1"
             }
           }
         ]
@@ -187,31 +199,32 @@
   },
   "active": "1a24d68be7db2372",
   "lastOpenFiles": [
+    "AE6114 - fundamentals of solid mechanics/AE6114 - Running Notes.md",
+    "AE6114 - fundamentals of solid mechanics/AE6114 - Exam 1 Study Guide.md",
+    "AE6114 - fundamentals of solid mechanics/HW2_AE6114_Problems - 2024.pdf",
+    "HW2_AE6114_Problems - 2024.pdf",
+    "AE6114 - fundamentals of solid mechanics/Topic4_Practice_AE6114 - Problems.pdf",
+    "AE6114 - fundamentals of solid mechanics/Topic3_Practice_AE6114 - Problems.pdf",
+    "AE6114 - fundamentals of solid mechanics/AE 6114 - Fall 2022 - Exam 1 - Problem.pdf",
+    "AE 6114 - Fall 2022 - Exam 1 - Problem.pdf",
+    "Topic4_Practice_AE6114 - Problems.pdf",
+    "Topic3_Practice_AE6114 - Problems.pdf",
     "AE6353 - orbital mechanics/AE6353 - Running Notes.md",
     "AE6353 - orbital mechanics/AE6353 - Test 1 Study Guide.md",
     "AE6353 - orbital mechanics/AE6353_Equation_Sheet_Test1.pdf",
     "AE6353 - orbital mechanics/AE6353 - Test 1 Study Guide.md.tmp.23336.3bcf43c2736a",
-    "AE6353_Equation_Sheet_Test1.pdf",
-    "AE6353 - orbital mechanics/refined notes/diagrams/2026-09-28 fig3.svg.tmp.28516.bed1a69cb4d4",
     "AE6353 - orbital mechanics/refined notes/2026-09-28 refined notes.md",
-    "AE6353 - orbital mechanics/refined notes/2026-09-28 refined notes.md.tmp.28516.651df898d460",
     "AE6353 - orbital mechanics/refined notes/diagrams/2026-09-28 fig10.svg",
-    "AE6353 - orbital mechanics/refined notes/diagrams/2026-09-28 fig10.svg.tmp.28516.2b9dbfd8c8c0",
     "AE6353 - orbital mechanics/refined notes/diagrams/2026-09-28 fig9.svg",
-    "AE6353 - orbital mechanics/refined notes/diagrams/2026-09-28 fig9.svg.tmp.28516.80615df75beb",
     "AE6353 - orbital mechanics/refined notes/diagrams/2026-09-28 fig8.svg",
     "AE6353 - orbital mechanics/refined notes/diagrams/2026-09-28 fig7.svg",
-    "AE6353 - orbital mechanics/refined notes/diagrams/2026-09-28 fig7.svg.tmp.28516.0f9567753aac",
     "AE6353 - orbital mechanics/refined notes/diagrams/2026-09-28 fig6.svg",
     "AE6353 - orbital mechanics/refined notes/diagrams/2026-09-28 fig5.svg",
     "AE6353 - orbital mechanics/refined notes/diagrams/2026-09-28 fig4.svg",
-    "AE6353 - orbital mechanics/refined notes/diagrams/2026-09-28 fig4.svg.tmp.28516.af9cb8f6eeaa",
     "AE6353 - orbital mechanics/refined notes/diagrams/2026-09-28 fig3.svg",
-    "AE6353 - orbital mechanics/refined notes/diagrams/2026-09-28 fig3.svg.tmp.28516.90debf3b76ae",
     "AE6353 - orbital mechanics/refined notes/diagrams/2026-09-28 fig2.svg",
     "AE6353 - orbital mechanics/refined notes/diagrams/2026-09-28 fig1.svg",
     "AE6353 - orbital mechanics/refined notes/2026-09-14 refined notes.md",
-    "AE6114 - fundamentals of solid mechanics/AE6114 - Running Notes.md",
     "AE6353 - orbital mechanics/refined notes/2026-08-31 refined notes.md",
     "E - Starting equation.md",
     "templates/TPL - Topic Note.md",
