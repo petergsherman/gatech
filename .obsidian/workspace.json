@@ -6,31 +6,39 @@
       {
         "id": "c746a9cef3102e08",
         "type": "tabs",
+        "dimension": 48.4452736318408,
         "children": [
           {
-            "id": "1a24d68be7db2372",
+            "id": "74a0d4155cee412f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "AE6114 - fundamentals of solid mechanics/AE6114 - Exam 1 Study Guide.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "AE6114 - Exam 1 Study Guide"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "5adba9591fa9a5b2",
+        "type": "tabs",
+        "dimension": 51.55472636815921,
+        "children": [
           {
-            "id": "dd2e77bfe736b530",
+            "id": "6c49ad2cc22b2c72",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "AE6353 - orbital mechanics/AE6353_Equation_Sheet_Test1.pdf"
+                "file": "AE6114 - fundamentals of solid mechanics/AE 6114 - Fall 2022 - Exam 1 - Problem.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "AE6353_Equation_Sheet_Test1"
+              "title": "AE 6114 - Fall 2022 - Exam 1 - Problem"
             }
           }
         ]
@@ -197,21 +205,22 @@
       "bases:Create new base": false
     }
   },
-  "active": "1a24d68be7db2372",
+  "active": "6c49ad2cc22b2c72",
   "lastOpenFiles": [
-    "AE6114 - fundamentals of solid mechanics/AE6114 - Running Notes.md",
     "AE6114 - fundamentals of solid mechanics/AE6114 - Exam 1 Study Guide.md",
+    "AE6114 - fundamentals of solid mechanics/AE 6114 - Fall 2022 - Exam 1 - Problem.pdf",
+    "AE6114 - fundamentals of solid mechanics/AE6114_Exam_1_Equation_Sheet.md",
+    "AE6114 - fundamentals of solid mechanics/AE6114 - Running Notes.md",
+    "AE6353 - orbital mechanics/AE6353_Equation_Sheet_Test1.pdf",
     "AE6114 - fundamentals of solid mechanics/HW2_AE6114_Problems - 2024.pdf",
+    "AE6114 - fundamentals of solid mechanics/Topic3_Practice_AE6114 - Problems.pdf",
     "HW2_AE6114_Problems - 2024.pdf",
     "AE6114 - fundamentals of solid mechanics/Topic4_Practice_AE6114 - Problems.pdf",
-    "AE6114 - fundamentals of solid mechanics/Topic3_Practice_AE6114 - Problems.pdf",
-    "AE6114 - fundamentals of solid mechanics/AE 6114 - Fall 2022 - Exam 1 - Problem.pdf",
     "AE 6114 - Fall 2022 - Exam 1 - Problem.pdf",
     "Topic4_Practice_AE6114 - Problems.pdf",
     "Topic3_Practice_AE6114 - Problems.pdf",
     "AE6353 - orbital mechanics/AE6353 - Running Notes.md",
     "AE6353 - orbital mechanics/AE6353 - Test 1 Study Guide.md",
-    "AE6353 - orbital mechanics/AE6353_Equation_Sheet_Test1.pdf",
     "AE6353 - orbital mechanics/AE6353 - Test 1 Study Guide.md.tmp.23336.3bcf43c2736a",
     "AE6353 - orbital mechanics/refined notes/2026-09-28 refined notes.md",
     "AE6353 - orbital mechanics/refined notes/diagrams/2026-09-28 fig10.svg",
