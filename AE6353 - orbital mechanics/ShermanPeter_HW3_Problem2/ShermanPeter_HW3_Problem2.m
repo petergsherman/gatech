@@ -42,7 +42,7 @@ SOURCES:
 %part c)
 %------------------------------------------------------------------------------------------------------
 %pulling data from kernels
-et0 = cspice_str2et('2005 FEB 12 11:43:00.0 UTC'); %ephemeris time at epoch //IMPORTANT: USED FEB INSTEAD OF AUG BECAUSE OF ASSIGNMENT DIRECTIONS
+et0 = cspice_str2et('2005 AUG 12 11:43:00.0 UTC'); %ephemeris time at epoch 
 state0_earth = cspice_spkezr('EARTH', et0, 'J2000', 'NONE', 'SUN'); %r0_earth = 1.0e+08 * {-1.1918, 0.8003, 0.3470} km
 
 %part d)
@@ -53,7 +53,7 @@ state1_mars = cspice_spkezr('MARS BARYCENTER', et1, 'J2000', 'NONE', 'SUN'); %r1
 %part e)
 %-------------------------------------------------------------------------------------------------------
 %TOF from launch from Earth to landing on Mars in seconds 
-dt = et1 - et0; %dt = 3.3817e+07 seconds
+dt = et1 - et0; %dt = 1.8179e+07 seconds
 
 %part f)
 %------------------------------------------------------------------------------------------------------
@@ -64,9 +64,9 @@ R = cspice_pxform('ECLIPJ2000', 'J2000', et0); %rotation tensor between ecliptic
 n = R * [0; 0; 1]; %applying rotation to normal vec in eclipitcJ2000 to ICRFJ2000
 
 %calculating angle between earth and mars 
-dTheta = mod(rad2deg(atan2(dot(cross(r0_earth, r1_mars), n), dot(r0_earth, r1_mars))), 360); %dTheta = 324.4702 deg
+dTheta = mod(rad2deg(atan2(dot(cross(r0_earth, r1_mars), n), dot(r0_earth, r1_mars))), 360); %dTheta = 148.4791 deg
 
-%Since dTheta = 324 deg, it means that the orbit segment was a 'long way' transfer
+%Since dTheta = 148.4791 deg, it means that the orbit segment was a 'short way' transfer
 if dTheta > 180
     swlw = 1; % long-way transfer
 else
@@ -76,12 +76,83 @@ end
 %part g)
 %---------------------------------------------------------------------------------------------------------
 mu = 1.32712440041279419e11; %km^3/s^2
-[v0_earth, v1_mars] = lambert(r0_earth, r1_mars, dt, swlw, mu)
+[v0_earth, v1_mars] = lambert(r0_earth, r1_mars, dt, swlw, mu); %v0_earth = {21.4846, 22.2928, 11.5645} km/s  v1_mars = {-20.7350, -2.7977, -2.1336} km/s 
 
 
+%part h)
+%---------------------------------------------------------------------------------------------------------
+state0_mro = vertcat(r0_earth, v0_earth);
+tspan = [0 dt];
 
+options = odeset('RelTol', 1e-12, 'AbsTol', 1e-9);
+[t_out, state_out] = ode45(@orbdyn, tspan, state0_mro, options);
 
+%extract final propagated state
+r_final = state_out(end,1:3)';
+v_final = state_out(end,4:6)';
 
+%compare with Lambert arrival state
+position_error = norm(r_final - r1_mars);
+velocity_error = norm(v_final - v1_mars);
+
+%Position error: 1.42773531e-04 km
+%Velocity error: 6.04588713e-12 km/s
+
+%part i)
+%--------------------------------------------------------------------------------------------------------
+
+N = 1000; %number of sample points for each orbit
+t = linspace(et0, et1, N); %from launch to touchdown 
+
+%initialize position arrays
+earthPOS = zeros(3, N);
+marsPOS = zeros(3, N);
+
+%getting earth and mars pos from spice
+for i = 1:N
+    state_earth = cspice_spkezr('EARTH', t(i), 'J2000', 'NONE', 'SUN');
+    state_mars = cspice_spkezr('MARS BARYCENTER', t(i), 'J2000', 'NONE', 'SUN');
+
+    earthPOS(:,i) = state_earth(1:3);
+    marsPOS(:,i) = state_mars(1:3);    
+end
+
+%propogating mro in same timespan
+tspan = linspace(0, dt, N);
+[~, state_mro] = ode45(@orbdyn, tspan, state0_mro, options);
+
+mroPOS = state_mro(:,1:3);
+
+%plot trajectories
+figure;
+hold on;
+grid on;
+axis equal;
+
+plot3(earthPOS(1,:), earthPOS(2,:), earthPOS(3,:),'b', 'LineWidth', 1.5);
+
+plot3(marsPOS(1,:), marsPOS(2,:), marsPOS(3,:), 'r', 'LineWidth', 1.5);
+
+plot3(mroPOS(:,1), mroPOS(:,2), mroPOS(:,3), 'g', 'LineWidth', 2);
+
+% Plot the Sun at the origin
+plot3(0, 0, 0, 'yo', 'MarkerFaceColor', 'y', 'MarkerSize', 10);
+
+% Mark Earth departure and Mars arrival
+plot3(r0_earth(1), r0_earth(2), r0_earth(3), 'bo', 'MarkerFaceColor', 'b', 'MarkerSize', 7);
+
+plot3(r1_mars(1), r1_mars(2), r1_mars(3), 'ro', 'MarkerFaceColor', 'r', 'MarkerSize', 7);
+
+xlabel('X (km)');
+ylabel('Y (km)');
+zlabel('Z (km)');
+
+title('MRO Earth-to-Mars Transfer (ICRF/J2000)');
+
+legend('Earth', 'Mars', 'MRO', 'Sun', 'Earth Departure', 'Mars Arrival', 'Location', 'best');
+
+view(3);
+hold off;
 
 
 
@@ -131,11 +202,9 @@ function [v1, v2] = lambert(r1, r2, dt, swlw, mu)
     
         if i == 1
             %guess P
-            if swlw == 0
-                P = k / (l - sqrt(2 * m));
-            else
-                P = k / (l + sqrt(2 * m));
-            end
+            p_min = k/(l + sqrt(2*m));
+            p_max = k/(l - sqrt(2*m));
+            P = (p_min + p_max)/2;
         end
 
         %compute a(p)
@@ -159,11 +228,11 @@ function [v1, v2] = lambert(r1, r2, dt, swlw, mu)
             dtdp = -g / (2 * P) - (3/2) * a * (t-g) * ((k^2 + (2 * m - l^2) * P^2)/(m * k * P^2)) + sqrt(a^3/mu)*(2 * k * sin(deltaE)/(P * (k-l * P)));
         else
             deltaF = acosh(1 - (mag_r1 / a) * (1 - f));
-            deltaT = g + sqrt((-a)^3 / mu) * (sinh(deltaF) - deltaF);
+            t = g + sqrt((-a)^3 / mu) * (sinh(deltaF) - deltaF);
+            deltaT = t;
     
             %calulate dt/dp for later use
-            t = g + sqrt(a^3 / mu) * (deltaF - sin(deltaF));
-            dtdp = -g / (2 * P) - (3/2) * a * (t-g) * ((k^2 + (2 * m - l^2) * P^2)/(m * k * P^2)) + sqrt(a^3/mu)*(2 * k * sinh(deltaF)/(P * (k-l * P)));
+            dtdp = -g / (2 * P) - (3/2) * a * (t-g) * ((k^2 + (2 * m - l^2) * P^2)/(m * k * P^2)) + sqrt((-a)^3/mu)*(2 * k * sinh(deltaF)/(P * (k-l * P)));
         end
         
         error = abs(deltaT - dt);
@@ -179,3 +248,14 @@ function [v1, v2] = lambert(r1, r2, dt, swlw, mu)
     v2 = (1/g) * (gdot * r2 - r1); 
 end
 
+function statedot = orbdyn(t, state)
+    %deconstructing state vector
+    r = state(1:3);
+    v = state(4:6);
+
+    %gravitational acceleration
+    rNorm = norm(r);
+    accMRO = (-132712440041.279419 / rNorm^3) * r; %muSun = 132712440041.279419
+
+    statedot = [v; accMRO];
+end
