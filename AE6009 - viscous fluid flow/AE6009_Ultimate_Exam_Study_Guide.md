@@ -19,22 +19,20 @@ For three analytical problems, budget about **17 min each**; for two, about **26
 ## 2. Continuum hypothesis and Knudsen number
 
 **Continuum assumption:** Treat fluid properties (density, pressure, velocity, and temperature) as smooth fields, even though molecules are discrete. Each mathematical “point” represents a volume containing enough molecules to average their behavior.
-
 $$
 \boxed{\mathrm{Kn}=\frac{\lambda}{L}}
 $$
-
 - $\lambda$: molecular **mean free path**, the average distance between molecular collisions.
 - $L$: characteristic macroscopic length, such as a channel height.
 - **Small $\mathrm{Kn}$**: continuum model is generally appropriate.
 - **Large $\mathrm{Kn}$**: individual molecular effects become important.
 
-| Knudsen number | Approximate regime |
-|---|---|
-| $\mathrm{Kn}<0.01$ | Continuum, typically no-slip |
-| $0.01\le\mathrm{Kn}<0.1$ | Slip flow |
-| $0.1\le\mathrm{Kn}<10$ | Transitional |
-| $\mathrm{Kn}\ge10$ | Free molecular |
+| Knudsen number           | Approximate regime           |
+| ------------------------ | ---------------------------- |
+| $\mathrm{Kn}<0.01$       | Continuum, typically no-slip |
+| $0.01\le\mathrm{Kn}<0.1$ | Slip flow                    |
+| $0.1\le\mathrm{Kn}<10$   | Transitional                 |
+| $\mathrm{Kn}\ge10$       | Free molecular               |
 
 **Physical intuition:** Smaller devices or lower-pressure gases generally have higher $\mathrm{Kn}$. A small Reynolds number does *not* guarantee a small Knudsen number.
 
